@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="As we’re embracing Information Age, data becomes so abundant that processing it is no easy business. Names and numbers: how does one make sense of them? In this project, you will be writing a program that processes textual and numeric data and sorts it nicely. Make it a truly talented program: enable it to determine the biggest or most frequent pieces of data and perform necessary calculations. Data is waiting to be sorted!&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/45&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA 11" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Sorting Tool" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="239" />
+                <option name="stepId" value="5613" />
+                <option name="title" value="Numbers only" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="240" />
+                <option name="stepId" value="5382" />
+                <option name="title" value="Not only numbers" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="241" />
+                <option name="stepId" value="5383" />
+                <option name="title" value="Sorting it out" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="242" />
+                <option name="stepId" value="5384" />
+                <option name="title" value="Everything counts" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="243" />
+                <option name="stepId" value="5385" />
+                <option name="title" value="Error!" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="244" />
+                <option name="stepId" value="5386" />
+                <option name="title" value="X-files" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="480" />
+                      <option name="theoryId" value="6577" />
+                      <option name="title" value="Command line overview" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="193" />
+                      <option name="theoryId" value="3749" />
+                      <option name="title" value="Printing data" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="14" />
+                      <option name="theoryId" value="3518" />
+                      <option name="title" value="Types and variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="30" />
+                      <option name="theoryId" value="3520" />
+                      <option name="title" value="Comments" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="112" />
+                      <option name="theoryId" value="3513" />
+                      <option name="title" value="Naming variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="146" />
+                      <option name="theoryId" value="3519" />
+                      <option name="title" value="Arithmetic operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="191" />
+                      <option name="theoryId" value="3739" />
+                      <option name="title" value="Write, compile and run" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="149" />
+                      <option name="theoryId" value="3499" />
+                      <option name="title" value="JVM, JRE and JDK" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="192" />
+                      <option name="theoryId" value="3746" />
+                      <option name="title" value="Running programs on your computer" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="113" />
+                      <option name="theoryId" value="3603" />
+                      <option name="title" value="Scanning the input" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="27" />
+                      <option name="theoryId" value="3565" />
+                      <option name="title" value="Integer types and operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="87" />
+                      <option name="theoryId" value="3516" />
+                      <option name="title" value="Boolean and logical operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="88" />
+                      <option name="theoryId" value="3512" />
+                      <option name="title" value="Relational operators" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="307" />
+                      <option name="theoryId" value="5008" />
+                      <option name="title" value="Increment and decrement" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="25" />
+                      <option name="theoryId" value="3503" />
+                      <option name="title" value="Conditional statement" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="89" />
+                      <option name="theoryId" value="3505" />
+                      <option name="title" value="The for-loop" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="309" />
+                      <option name="theoryId" value="5035" />
+                      <option name="title" value="Primitive and reference types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="4" />
+                      <option name="theoryId" value="3511" />
+                      <option name="title" value="Array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="161" />
+                      <option name="theoryId" value="3532" />
+                      <option name="title" value="Sizes and ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="32" />
+                      <option name="theoryId" value="3510" />
+                      <option name="title" value="Type casting" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="36" />
+                      <option name="theoryId" value="3517" />
+                      <option name="title" value="Floating-point types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="31" />
+                      <option name="theoryId" value="3514" />
+                      <option name="title" value="Characters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="9" />
+                      <option name="theoryId" value="3523" />
+                      <option name="title" value="String" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="98" />
+                      <option name="theoryId" value="3551" />
+                      <option name="title" value="Processing strings" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="94" />
+                      <option name="theoryId" value="3590" />
+                      <option name="title" value="Defining methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="1" />
+                      <option name="theoryId" value="3489" />
+                      <option name="title" value="The main method" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="99" />
+                      <option name="theoryId" value="3594" />
+                      <option name="title" value="Arrays as parameters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="111" />
+                      <option name="theoryId" value="3566" />
+                      <option name="title" value="Command-line arguments" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="266" />
+                      <option name="theoryId" value="4953" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="263" />
+                      <option name="theoryId" value="4991" />
+                      <option name="title" value="The big O notation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="267" />
+                      <option name="theoryId" value="5161" />
+                      <option name="title" value="Data structures" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="410" />
+                      <option name="theoryId" value="5984" />
+                      <option name="title" value="Recursion basics" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="274" />
+                      <option name="theoryId" value="4954" />
+                      <option name="title" value="The sorting problem" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="273" />
+                      <option name="theoryId" value="4964" />
+                      <option name="title" value="Merge sort" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="346" />
+                      <option name="theoryId" value="5357" />
+                      <option name="title" value="Dynamic array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="60" />
+                      <option name="theoryId" value="3497" />
+                      <option name="title" value="What is an exception" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="164" />
+                      <option name="theoryId" value="1945" />
+                      <option name="title" value="NPE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="130" />
+                      <option name="theoryId" value="3540" />
+                      <option name="title" value="Algorithms in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="143" />
+                      <option name="theoryId" value="3527" />
+                      <option name="title" value="Merge sort in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="167" />
+                      <option name="theoryId" value="3492" />
+                      <option name="title" value="Generic programming" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="166" />
+                      <option name="theoryId" value="3567" />
+                      <option name="title" value="ArrayList" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="163" />
+                      <option name="theoryId" value="3536" />
+                      <option name="title" value="Errors in programs" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="152" />
+                      <option name="theoryId" value="3506" />
+                      <option name="title" value="Ternary operator" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="97" />
+                      <option name="theoryId" value="3602" />
+                      <option name="title" value="Iterating over arrays" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="115" />
+                      <option name="theoryId" value="3618" />
+                      <option name="title" value="Defining classes" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="17" />
+                      <option name="theoryId" value="3535" />
+                      <option name="title" value="Constructor" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="96" />
+                      <option name="theoryId" value="4727" />
+                      <option name="title" value="Objects" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="43" />
+                      <option name="theoryId" value="3591" />
+                      <option name="title" value="Basics of collections" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="40" />
+                      <option name="theoryId" value="3575" />
+                      <option name="title" value="Set" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="46" />
+                      <option name="theoryId" value="3558" />
+                      <option name="title" value="Map" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="4">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="59" />
+                      <option name="theoryId" value="3570" />
+                      <option name="title" value="Hierarchy of exceptions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="65" />
+                      <option name="theoryId" value="3552" />
+                      <option name="title" value="Exception handling" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="7" />
+                      <option name="theoryId" value="3621" />
+                      <option name="title" value="Package" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="28" />
+                      <option name="theoryId" value="3589" />
+                      <option name="title" value="Access modifiers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="24" />
+                      <option name="theoryId" value="3599" />
+                      <option name="title" value="Getters and setters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="8" />
+                      <option name="theoryId" value="3583" />
+                      <option name="title" value="Inheritance" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="5">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="172" />
+                      <option name="theoryId" value="3635" />
+                      <option name="title" value="Files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="173" />
+                      <option name="theoryId" value="3636" />
+                      <option name="title" value="Reading files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="177" />
+                      <option name="theoryId" value="3652" />
+                      <option name="title" value="Writing files" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="As we’re embracing Information Age, data becomes so abundant that processing it is no easy business. Names and numbers: how does one make sense of them? In this project, you will be writing a program that processes textual and numeric data and sorts it nicely. Make it a truly talented program: enable it to determine the biggest or most frequent pieces of data and perform necessary calculations. Data is waiting to be sorted!" />
+              <option name="id" value="45" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/209824/additional_files.json" />
+              <option name="language" value="java" />
+              <option name="templateBased" value="false" />
+              <option name="title" value="Sorting Tool" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="0" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Sorting Tool" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;This project is about sorting different data. Numbers, words, lines.&lt;/p&gt;&#10;&#10;&lt;p&gt;In the first stage, let's stick to integers only. The program should read integers from the console. Note, that every line of input can contain multiple numbers - and these numbers can be separated not only by a single space but let's say 20 spaces. &lt;/p&gt;&#10;&#10;&lt;p&gt;Your program should process every line the user inputs. To end the input, the user should type &lt;code&gt;Ctrl+D&lt;/code&gt;.&lt;/p&gt;&#10;&#10;&lt;p&gt;Notice that if you run your program and try to manually type numbers you realize that this process will go on infinitely. And by pressing &lt;code&gt;Ctrl+D&lt;/code&gt; you say to the program that you won't type any more symbols to the standard input. And in this case, &lt;code&gt;scanner.hasNext...&lt;/code&gt; will return &lt;code&gt;false&lt;/code&gt;. So, you don't need to check specifically for &lt;code&gt;Ctrl+D&lt;/code&gt; to be typed.&lt;/p&gt;&#10;&#10;&lt;p&gt;After the end of the input, your program should output three things:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;&#9;&lt;li&gt;The number of numbers in the input  (X)&lt;/li&gt;&#10;&#9;&lt;li&gt;The greatest number in the input (Y)&lt;/li&gt;&#10;&#9;&lt;li&gt;How many times this greatest number occurs in the input (Z)&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;You should paste these numbers in the following template:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Total numbers: X.&#10;The greatest number: Y (Z time(s)).&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Input example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;1 -2   33 4&#10;42&#10;1                 1&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Total numbers: 7.&#10;The greatest number: 42 (1 time(s)).&#10;&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/45/stages/239/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5613" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Numbers only" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Failed" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/sorting/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/sorting/Main.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/SortingTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/SortingTest.java" />
+                                <option name="text" value="import common.SortingToolStage1Test;&#10;&#10;public class SortingTest extends SortingToolStage1Test {&#10;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/SortingToolStage1Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/SortingToolStage1Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import sorting.Main&#10;import java.util.*&#10;&#10;abstract class SortingToolStage1Test : BaseStageTest&lt;SortingToolClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;        return stage1Tests()&#10;    }&#10;&#10;    override fun check(reply: String, clue: SortingToolClue): CheckResult {&#10;        return checkForLong(clue, reply)&#10;    }&#10;}&#10;&#10;fun stage1Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   33 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true&#10;            ),&#10;            createTest(&quot;1 2 2 3 4 5 5&quot;, true),&#10;            createTest(&quot;1 1 2 2 3 4 4 4&quot;, false)&#10;    )&#10;}&#10;&#10;&#10;fun revealRawTest(clue: SortingToolClue, reply: String): String {&#10;    return with(clue) { &quot;Args:\n${args.joinToString(&quot; &quot;)}\nInput:\n$consoleInput\nYour output:\n$reply\n\n&quot; }&#10;}&#10;&#10;class SortingToolClue(val consoleInput: String, val revealTest: Boolean, val args: List&lt;String&gt;)&#10;&#10;fun createTest(&#10;        consoleInput: String,&#10;        revealTest: Boolean,&#10;        vararg args: String = arrayOf(&quot;-dataType&quot;, &quot;long&quot;)&#10;): TestCase&lt;SortingToolClue&gt; {&#10;    return TestCase&lt;SortingToolClue&gt;()&#10;            .setAttach(SortingToolClue(consoleInput, revealTest, args.toList()))&#10;            .setInput(consoleInput)&#10;            .addArguments(*args)&#10;}&#10;&#10;fun checkForLong(clue: SortingToolClue, reply_: String): CheckResult {&#10;    val reply = reply_.trim()&#10;    val regex = &quot;&quot;&quot;(\d+)\D+(\d+)\D+(\d+)&quot;&quot;&quot;.toRegex()&#10;    val matchResult = regex.find(reply)&#10;    if (matchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output. Please check if your output contains three numbers\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val (totalNumbers, greatestNumber, greatestNumberCount) = matchResult.groupValues.drop(1).map { it.toInt() }&#10;&#10;    val scanner = Scanner(clue.consoleInput)&#10;&#10;    val actualNumbers = mutableListOf&lt;Int&gt;()&#10;&#10;    while (scanner.hasNextInt()) {&#10;        actualNumbers.add(scanner.nextInt())&#10;    }&#10;&#10;    val actualTotal = actualNumbers.size&#10;&#10;    if (actualTotal != totalNumbers) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total numbers ($totalNumbers) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total numbers are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMax = actualNumbers.max()&#10;&#10;    if (actualMax != greatestNumber) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Greatest number ($greatestNumber) is incorrect. Expected: $actualMax.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Greatest number is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMaxCount = actualNumbers.count { it == actualMax }&#10;&#10;    if (actualMaxCount != greatestNumberCount) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Greatest number times ($greatestNumberCount) are incorrect. Expected: $actualMaxCount.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Greatest number times are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1563030678000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this stage, you should implement command-line arguments parsing. Parse the &lt;code&gt;-dataType&lt;/code&gt; argument and it's following type. The type can be only &lt;code&gt;long&lt;/code&gt;, &lt;code&gt;line&lt;/code&gt; or &lt;code&gt;word&lt;/code&gt;. If the argument is not provided, you should assume that &lt;code&gt;-dataType&lt;/code&gt; argument is &lt;code&gt;word&lt;/code&gt;.&lt;/p&gt;&#10;&#10;&lt;p&gt;After that, you must treat all the user inputs as numbers, words or lines depending on command-line argument that was passed to the program.&lt;/p&gt;&#10;&#10;&lt;p&gt;If the argument is &lt;code&gt;word&lt;/code&gt;, the program should separate all the user input into words separated by spaces. You should compare words by length and in case two words have the same length - lexicographically.&lt;/p&gt;&#10;&#10;&lt;p&gt;If the argument is &lt;code&gt;line&lt;/code&gt;, the program should separate all the user input into lines. You should compare two lines by length and in case two lines have the same length - lexicographically, like the words compared. Notice that you should print the longest line on a separate line so you end up with 4 lines being printed, not 2. You can see this in the examples.&lt;/p&gt;&#10;&#10;&lt;p&gt;You should also add the percentage of occurrence of the found word among all words (words, integers or lines).&lt;/p&gt;&#10;&#10;&lt;p&gt;By the way, in the case of lines, you should print the longest line on a separate line, but words and numbers should be printed on the same line as percentages. You can see this behavior in the examples.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Run configuration examples&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -dataType long&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -dataType line&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -dataType word&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Input example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;1 -2   333 4&#10;42&#10;1                 1&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example for words&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Total words: 7.&#10;The longest word: 333 (1 time(s), 14%).&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example for lines&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Total lines: 3.&#10;The longest line:&#10;1                 1&#10;(1 time(s), 33%).&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example for integers &lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Total numbers: 7.&#10;The greatest number: 333 (1 time(s), 14%).&#10;&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/45/stages/240/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5382" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Not only numbers" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/SortingTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/SortingTest.java" />
+                                <option name="text" value="import common.SortingToolStage2Test;&#10;&#10;public class SortingTest extends SortingToolStage2Test {&#10;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/SortingToolStage2Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/SortingToolStage2Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import sorting.Main&#10;import java.util.*&#10;import kotlin.math.roundToInt&#10;&#10;abstract class SortingToolStage2Test : BaseStageTest&lt;SortingToolClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;        return stage1Tests() + stage2Tests()&#10;    }&#10;&#10;    override fun check(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;long&quot; in clue.args -&gt; checkForLong(clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkForWord(clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkForLine(clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;}&#10;&#10;fun stage1Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   33 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true&#10;            ),&#10;            createTest(&quot;1 2 2 3 4 5 5&quot;, true),&#10;            createTest(&quot;1 1 2 2 3 4 4 4&quot;, false)&#10;    )&#10;}&#10;&#10;fun stage2Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;abcc de a&quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-dataType&quot;, &quot;line&quot;&#10;            )&#10;    )&#10;}&#10;&#10;&#10;fun revealRawTest(clue: SortingToolClue, reply: String): String {&#10;    return with(clue) { &quot;Args:\n${args.joinToString(&quot; &quot;)}\nInput:\n$consoleInput\nYour output:\n$reply\n\n&quot; }&#10;}&#10;&#10;&#10;class SortingToolClue(val consoleInput: String, val revealTest: Boolean, val args: List&lt;String&gt;)&#10;&#10;&#10;fun createTest(&#10;        consoleInput: String,&#10;        revealTest: Boolean,&#10;        vararg args: String = arrayOf(&quot;-dataType&quot;, &quot;long&quot;)&#10;): TestCase&lt;SortingToolClue&gt; {&#10;    return TestCase&lt;SortingToolClue&gt;()&#10;            .setAttach(SortingToolClue(consoleInput, revealTest, args.toList()))&#10;            .setInput(consoleInput)&#10;            .addArguments(*args)&#10;}&#10;&#10;&#10;fun checkForLong(clue: SortingToolClue, reply_: String): CheckResult {&#10;    val reply = reply_.trim()&#10;    val regex = &quot;&quot;&quot;(\d+)\D+(\d+)\D+(\d+)&quot;&quot;&quot;.toRegex()&#10;    val matchResult = regex.find(reply)&#10;    if (matchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output. Please check if your output contains three numbers\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val (totalNumbers, greatestNumber, greatestNumberCount) = matchResult.groupValues.drop(1).map { it.toInt() }&#10;&#10;    val scanner = Scanner(clue.consoleInput)&#10;&#10;    val actualNumbers = mutableListOf&lt;Int&gt;()&#10;&#10;    while (scanner.hasNextInt()) {&#10;        actualNumbers.add(scanner.nextInt())&#10;    }&#10;&#10;    val actualTotal = actualNumbers.size&#10;&#10;    if (actualTotal != totalNumbers) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total numbers ($totalNumbers) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total numbers are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMax = actualNumbers.max()&#10;&#10;    if (actualMax != greatestNumber) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Greatest number ($greatestNumber) is incorrect. Expected: $actualMax.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Greatest number is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMaxCount = actualNumbers.count { it == actualMax }&#10;&#10;    if (actualMaxCount != greatestNumberCount) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Greatest number times ($greatestNumberCount) are incorrect. Expected: $actualMaxCount.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Greatest number times are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;&#10;fun checkForWord(clue: SortingToolClue, reply_: String): CheckResult {&#10;    val reply = reply_.trim()&#10;    val regex = &quot;&quot;&quot;(\d+)\D+: (.+) \(\D*(\d+)\D+(\d+)\D*\)&quot;&quot;&quot;.toRegex()&#10;    val matchResult = regex.find(reply)&#10;    if (matchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalWords = matchResult.groupValues[1].toInt()&#10;    val word = matchResult.groupValues[2]&#10;    val longestWordCount = matchResult.groupValues[3].toInt()&#10;    val longestWordPercentage = matchResult.groupValues[4].toInt()&#10;&#10;    val scanner = Scanner(clue.consoleInput)&#10;&#10;    val actualWords = mutableListOf&lt;String&gt;()&#10;&#10;    while (scanner.hasNext()) {&#10;        actualWords.add(scanner.next())&#10;    }&#10;&#10;    val actualTotal = actualWords.size&#10;&#10;    if (actualTotal != totalWords) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total words ($totalWords) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total words are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMax = actualWords.maxBy { it.length }&#10;&#10;    if (actualMax != word) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest word ($word) is incorrect. Expected: $actualMax.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest word is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMaxCount = actualWords.count { it == actualMax }&#10;&#10;    if (actualMaxCount != longestWordCount) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest word times ($longestWordCount) are incorrect. Expected: $actualMaxCount.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest word times are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualPercentage = (actualMaxCount * 100.0 / actualTotal).roundToInt()&#10;&#10;    if (actualPercentage != longestWordPercentage) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Percentage ($longestWordPercentage) is incorrect. Expected: $actualPercentage.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Percentage is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;&#10;fun checkForLine(clue: SortingToolClue, reply_: String): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    if (lines.size != 4) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output: expected 4 lines.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output: expected 4 lines.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalLines = totalMatchResult.groupValues[1].toInt()&#10;    val line = lines[2]&#10;&#10;    val countRegex = &quot;&quot;&quot;(\d+)\D+(\d+)&quot;&quot;&quot;.toRegex()&#10;    val countMatchResult = countRegex.find(lines[3])&#10;    if (countMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find two numbers in the last line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find two numbers in the last line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val longestWordCount = countMatchResult.groupValues[1].toInt()&#10;    val longestWordPercentage = countMatchResult.groupValues[2].toInt()&#10;&#10;    val actualLines = clue.consoleInput.lines()&#10;&#10;    val actualTotal = actualLines.size&#10;&#10;    if (actualTotal != totalLines) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total lines ($totalLines) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total lines are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMax = actualLines.maxBy { it.length }&#10;&#10;    if (actualMax != line) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest line ($line) is incorrect. Expected: $actualMax.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest line is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMaxCount = actualLines.count { it == actualMax }&#10;&#10;    if (actualMaxCount != longestWordCount) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest line times ($longestWordCount) are incorrect. Expected: $actualMaxCount.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest line times are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualPercentage = (actualMaxCount * 100.0 / actualTotal).roundToInt()&#10;&#10;    if (actualPercentage != longestWordPercentage) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Percentage ($longestWordPercentage) is incorrect. Expected: $actualPercentage.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Percentage is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/Main.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1563030678000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this stage, you should parse &lt;code&gt;-sortIntegers&lt;/code&gt; argument. This argument should indicate that the numbers that user input should be sorted. &lt;/p&gt;&#10;&#10;&lt;p&gt;If the &lt;code&gt;-sortIntegers&lt;/code&gt; argument is presented, you should ignore other arguments, otherwise, the behavior of the program should be the same as in the previous stage.&lt;/p&gt;&#10;&#10;&lt;p&gt;After processing user data, print &lt;code&gt;Sorted data:&lt;/code&gt; and then print all integers sorted in ascending order.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Run configuration examples&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -sortIntegers&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Input example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;1 -2   33 4&#10;42&#10;1                 1&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example (for sorting task)&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Total numbers: 7.&#10;Sorted data: -2 1 1 1 4 33 42&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/45/stages/241/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5383" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Sorting it out" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/SortingTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/SortingTest.java" />
+                                <option name="text" value="import common.SortingToolStage3Test;&#10;&#10;public class SortingTest extends SortingToolStage3Test {&#10;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/SortingToolStage3Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/SortingToolStage3Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import sorting.Main&#10;import java.util.*&#10;import kotlin.math.roundToInt&#10;&#10;abstract class SortingToolStage3Test : BaseStageTest&lt;SortingToolClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;        return stage1Tests() + stage2Tests() + stage3Tests()&#10;    }&#10;&#10;    override fun check(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;-sortIntegers&quot; in clue.args -&gt; checkNatural(&#10;                    parseLongTokens(clue.consoleInput),&#10;                    ::parseLongTokens,&#10;                    clue,&#10;                    reply&#10;            )&#10;&#10;            &quot;long&quot; in clue.args -&gt; checkForLong(clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkForWord(clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkForLine(clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;}&#10;&#10;fun stage1Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   33 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true&#10;            ),&#10;            createTest(&quot;1 2 2 3 4 5 5&quot;, true),&#10;            createTest(&quot;1 1 2 2 3 4 4 4&quot;, false)&#10;    )&#10;}&#10;&#10;&#10;fun stage2Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;abcc de a&quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-dataType&quot;, &quot;line&quot;&#10;            )&#10;    )&#10;}&#10;&#10;&#10;fun stage3Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;word&quot;, &quot;-sortIntegers&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortIntegers&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortIntegers&quot;, &quot;-dataType&quot;, &quot;line&quot;&#10;            )&#10;    )&#10;}&#10;&#10;&#10;&#10;fun revealRawTest(clue: SortingToolClue, reply: String): String {&#10;    return with(clue) { &quot;Args:\n${args.joinToString(&quot; &quot;)}\nInput:\n$consoleInput\nYour output:\n$reply\n\n&quot; }&#10;}&#10;&#10;class SortingToolClue(val consoleInput: String, val revealTest: Boolean, val args: List&lt;String&gt;)&#10;&#10;fun createTest(&#10;        consoleInput: String,&#10;        revealTest: Boolean,&#10;        vararg args: String = arrayOf(&quot;-dataType&quot;, &quot;long&quot;)&#10;): TestCase&lt;SortingToolClue&gt; {&#10;    return TestCase&lt;SortingToolClue&gt;()&#10;            .setAttach(SortingToolClue(consoleInput, revealTest, args.toList()))&#10;            .setInput(consoleInput)&#10;            .addArguments(*args)&#10;}&#10;&#10;fun checkForLong(clue: SortingToolClue, reply_: String): CheckResult {&#10;    val reply = reply_.trim()&#10;    val regex = &quot;&quot;&quot;(\d+)\D+(\d+)\D+(\d+)&quot;&quot;&quot;.toRegex()&#10;    val matchResult = regex.find(reply)&#10;    if (matchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output. Please check if your output contains three numbers\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val (totalNumbers, greatestNumber, greatestNumberCount) = matchResult.groupValues.drop(1).map { it.toInt() }&#10;&#10;    val scanner = Scanner(clue.consoleInput)&#10;&#10;    val actualNumbers = mutableListOf&lt;Int&gt;()&#10;&#10;    while (scanner.hasNextInt()) {&#10;        actualNumbers.add(scanner.nextInt())&#10;    }&#10;&#10;    val actualTotal = actualNumbers.size&#10;&#10;    if (actualTotal != totalNumbers) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total numbers ($totalNumbers) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total numbers are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMax = actualNumbers.max()&#10;&#10;    if (actualMax != greatestNumber) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Greatest number ($greatestNumber) is incorrect. Expected: $actualMax.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Greatest number is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMaxCount = actualNumbers.count { it == actualMax }&#10;&#10;    if (actualMaxCount != greatestNumberCount) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Greatest number times ($greatestNumberCount) are incorrect. Expected: $actualMaxCount.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Greatest number times are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;fun checkForWord(clue: SortingToolClue, reply_: String): CheckResult {&#10;    val reply = reply_.trim()&#10;    val regex = &quot;&quot;&quot;(\d+)\D+: (.+) \(\D*(\d+)\D+(\d+)\D*\)&quot;&quot;&quot;.toRegex()&#10;    val matchResult = regex.find(reply)&#10;    if (matchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalWords = matchResult.groupValues[1].toInt()&#10;    val word = matchResult.groupValues[2]&#10;    val longestWordCount = matchResult.groupValues[3].toInt()&#10;    val longestWordPercentage = matchResult.groupValues[4].toInt()&#10;&#10;    val scanner = Scanner(clue.consoleInput)&#10;&#10;    val actualWords = mutableListOf&lt;String&gt;()&#10;&#10;    while (scanner.hasNext()) {&#10;        actualWords.add(scanner.next())&#10;    }&#10;&#10;    val actualTotal = actualWords.size&#10;&#10;    if (actualTotal != totalWords) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total words ($totalWords) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total words are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMax = actualWords.maxBy { it.length }&#10;&#10;    if (actualMax != word) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest word ($word) is incorrect. Expected: $actualMax.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest word is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMaxCount = actualWords.count { it == actualMax }&#10;&#10;    if (actualMaxCount != longestWordCount) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest word times ($longestWordCount) are incorrect. Expected: $actualMaxCount.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest word times are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualPercentage = (actualMaxCount * 100.0 / actualTotal).roundToInt()&#10;&#10;    if (actualPercentage != longestWordPercentage) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Percentage ($longestWordPercentage) is incorrect. Expected: $actualPercentage.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Percentage is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;fun checkForLine(clue: SortingToolClue, reply_: String): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    if (lines.size != 4) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output: expected 4 lines.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output: expected 4 lines.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalLines = totalMatchResult.groupValues[1].toInt()&#10;    val line = lines[2]&#10;&#10;    val countRegex = &quot;&quot;&quot;(\d+)\D+(\d+)&quot;&quot;&quot;.toRegex()&#10;    val countMatchResult = countRegex.find(lines[3])&#10;    if (countMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find two numbers in the last line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find two numbers in the last line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val longestWordCount = countMatchResult.groupValues[1].toInt()&#10;    val longestWordPercentage = countMatchResult.groupValues[2].toInt()&#10;&#10;    val actualLines = clue.consoleInput.lines()&#10;&#10;    val actualTotal = actualLines.size&#10;&#10;    if (actualTotal != totalLines) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total lines ($totalLines) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total lines are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMax = actualLines.maxBy { it.length }&#10;&#10;    if (actualMax != line) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest line ($line) is incorrect. Expected: $actualMax.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest line is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualMaxCount = actualLines.count { it == actualMax }&#10;&#10;    if (actualMaxCount != longestWordCount) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Longest line times ($longestWordCount) are incorrect. Expected: $actualMaxCount.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Longest line times are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val actualPercentage = (actualMaxCount * 100.0 / actualTotal).roundToInt()&#10;&#10;    if (actualPercentage != longestWordPercentage) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Percentage ($longestWordPercentage) is incorrect. Expected: $actualPercentage.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Percentage is incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;fun parseLongTokens(input: String): List&lt;Int&gt; {&#10;    val scanner = Scanner(input)&#10;&#10;    val longTokens = mutableListOf&lt;Int&gt;()&#10;&#10;    while (scanner.hasNextInt()) {&#10;        longTokens.add(scanner.nextInt())&#10;    }&#10;&#10;    return longTokens&#10;}&#10;&#10;fun &lt;TokenType : Comparable&lt;TokenType&gt;&gt; checkNatural(&#10;        actualTokens: List&lt;TokenType&gt;,&#10;        sortedTokensParser: (String) -&gt; List&lt;TokenType&gt;,&#10;        clue: SortingToolClue,&#10;        reply_: String&#10;): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    if (lines.size != 2) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output: expected 2 lines.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output: expected 2 lines.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalTokens = totalMatchResult.groupValues[1].toInt()&#10;&#10;    val actualTotal = actualTokens.size&#10;&#10;    if (actualTotal != totalTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total tokens ($totalTokens) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val sortedActualTokens = actualTokens.sorted()&#10;&#10;    val sortedTokens = sortedTokensParser(lines[1].substringAfter(&quot;:&quot;).dropWhile { it in setOf('\n', '\r') })&#10;&#10;    val total = sortedTokens.size&#10;&#10;    if (actualTotal != total) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total sorted tokens ($total) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    if (sortedActualTokens != sortedTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Sorted tokens are incorrect.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/Main.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1563030678000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this stage, you should implement sorting by count. The result should be pairs like &lt;code&gt;(count, dataEntry)&lt;/code&gt; sorted by count.&lt;/p&gt;&#10;&#10;&lt;p&gt;Remove parsing of the &lt;code&gt;-sortIntegers&lt;/code&gt; argument. Instead of this argument add another - named &lt;code&gt;-sortingType&lt;/code&gt;.  This argument can be followed by &lt;code&gt;natural&lt;/code&gt; or &lt;code&gt;byCount&lt;/code&gt; sorting types. If &lt;code&gt;-sortingType&lt;/code&gt; is not presented among argument list then consider &lt;code&gt;natural&lt;/code&gt; to be the default sorting type.&lt;/p&gt;&#10;&#10;&lt;p&gt;If &lt;code&gt;-dataType&lt;/code&gt; is &lt;code&gt;word&lt;/code&gt; or &lt;code&gt;line&lt;/code&gt;, use &lt;code&gt;String.compareTo(String)&lt;/code&gt; method to compare strings in sorting.&lt;/p&gt;&#10;&#10;&lt;p&gt;To sum up, your program should support two sorting methods now and work with all types of data.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;How-to&lt;/h2&gt;&#10;&#10;&lt;p&gt;You can use the following algorithm:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Sort data entries into &lt;code&gt;List&amp;lt;DataType&amp;gt; sortedDataEntries&lt;/code&gt;.&lt;/li&gt;&#10;  &lt;li&gt;Iterate over it and create &lt;code&gt;Map&amp;lt;DataType, Integer&amp;gt; dataEntryToCount&lt;/code&gt;.&lt;/li&gt;&#10;  &lt;li&gt;Iterate over it and create &lt;code&gt;List&amp;lt;Integer&amp;gt; counts&lt;/code&gt;.&lt;/li&gt;&#10;  &lt;li&gt;Sort it into &lt;code&gt;List&amp;lt;Integer&amp;gt; sortedCounts&lt;/code&gt; and remove duplicates in it.&lt;/li&gt;&#10;  &lt;li&gt;Iterate over &lt;code&gt;dataEntryToCount&lt;/code&gt; and create &lt;code&gt;Map&amp;lt;Integer, Set&amp;lt;DataEntry&amp;gt;&amp;gt; countToDataEntries&lt;/code&gt;.&lt;/li&gt;&#10;  &lt;li&gt;Now iterate over &lt;code&gt;sortedCounts&lt;/code&gt; and print all data entries from &lt;code&gt;countToDataEntries.get(count)&lt;/code&gt;.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;Or you can use &lt;a href=&quot;https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#sort-java.util.List-java.util.Comparator-&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;sorting with comparator&lt;/a&gt; to skip the last four actions.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Run configuration examples&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -sortingType natural -dataType long&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -dataType word -sortingType byCount&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Input example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;1 -2   33 4&#10;42&#10;1                 1&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example for sorting longs by count&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;Total numbers: 7.&#10;-2: 1 time(s), 14%&#10;4: 1 time(s), 14%&#10;33: 1 time(s), 14%&#10;42: 1 time(s), 14%&#10;1: 3 time(s), 43%&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/45/stages/242/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5384" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Everything counts" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/SortingTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/SortingTest.java" />
+                                <option name="text" value="import common.SortingToolStage4Test;&#10;&#10;public class SortingTest extends SortingToolStage4Test {&#10;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/SortingToolStage4Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/SortingToolStage4Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import sorting.Main&#10;import java.util.*&#10;&#10;abstract class SortingToolStage4Test : BaseStageTest&lt;SortingToolClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;        return stage4Tests()&#10;    }&#10;&#10;    override fun check(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;byCount&quot; in clue.args -&gt; checkByCount(reply, clue)&#10;            else -&gt; checkNatural(reply, clue)&#10;        }&#10;    }&#10;&#10;    private fun checkByCount(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;long&quot; in clue.args -&gt; checkByCount(parseLongTokens(clue.consoleInput), { it.toInt() }, clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkByCount(parseWordTokens(clue.consoleInput), { it }, clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkByCount(parseLineTokens(clue.consoleInput), { it }, clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;&#10;    private fun checkNatural(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;long&quot; in clue.args -&gt; checkNatural(parseLongTokens(clue.consoleInput), ::parseLongTokens, clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkNatural(parseWordTokens(clue.consoleInput), ::parseWordTokens, clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkNatural(parseLineTokens(clue.consoleInput), ::parseLineTokens, clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;}&#10;&#10;fun stage4Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;long&quot;, &quot;-sortingType&quot;, &quot;natural&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;long&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;&#10;            )&#10;    )&#10;}&#10;&#10;&#10;&#10;fun revealRawTest(clue: SortingToolClue, reply: String): String {&#10;    return with(clue) { &quot;Args:\n${args.joinToString(&quot; &quot;)}\nInput:\n$consoleInput\nYour output:\n$reply\n\n&quot; }&#10;}&#10;&#10;class SortingToolClue(val consoleInput: String, val revealTest: Boolean, val args: List&lt;String&gt;)&#10;&#10;fun createTest(&#10;        consoleInput: String,&#10;        revealTest: Boolean,&#10;        vararg args: String = arrayOf(&quot;-dataType&quot;, &quot;long&quot;)&#10;): TestCase&lt;SortingToolClue&gt; {&#10;    return TestCase&lt;SortingToolClue&gt;()&#10;            .setAttach(SortingToolClue(consoleInput, revealTest, args.toList()))&#10;            .setInput(consoleInput)&#10;            .addArguments(*args)&#10;}&#10;&#10;fun parseLongTokens(input: String): List&lt;Int&gt; {&#10;    val scanner = Scanner(input)&#10;&#10;    val longTokens = mutableListOf&lt;Int&gt;()&#10;&#10;    while (scanner.hasNextInt()) {&#10;        longTokens.add(scanner.nextInt())&#10;    }&#10;&#10;    return longTokens&#10;}&#10;&#10;fun parseWordTokens(input: String): List&lt;String&gt; {&#10;    val scanner = Scanner(input)&#10;&#10;    val wordTokens = mutableListOf&lt;String&gt;()&#10;&#10;    while (scanner.hasNext()) {&#10;        wordTokens.add(scanner.next())&#10;    }&#10;&#10;    return wordTokens&#10;}&#10;&#10;fun parseLineTokens(input: String): List&lt;String&gt; {&#10;    return input.lines()&#10;}&#10;&#10;fun &lt;TokenType : Comparable&lt;TokenType&gt;&gt; checkNatural(&#10;        actualTokens: List&lt;TokenType&gt;,&#10;        sortedTokensParser: (String) -&gt; List&lt;TokenType&gt;,&#10;        clue: SortingToolClue,&#10;        reply_: String&#10;): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    if (lines.size != 2) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output: expected 2 lines.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output: expected 2 lines.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalTokens = totalMatchResult.groupValues[1].toInt()&#10;&#10;    val actualTotal = actualTokens.size&#10;&#10;    if (actualTotal != totalTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total tokens ($totalTokens) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val sortedActualTokens = actualTokens.sorted()&#10;&#10;    val sortedTokens = sortedTokensParser(lines[1].substringAfter(&quot;:&quot;).dropWhile { it in setOf('\n', '\r') })&#10;&#10;    val total = sortedTokens.size&#10;&#10;    if (actualTotal != total) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total sorted tokens ($total) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    if (sortedActualTokens != sortedTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Sorted tokens are incorrect.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;fun &lt;TokenType : Comparable&lt;TokenType&gt;&gt; checkByCount(&#10;        actualTokens: List&lt;TokenType&gt;,&#10;        tokenParser: (String) -&gt; TokenType,&#10;        clue: SortingToolClue,&#10;        reply_: String&#10;): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalTokens = totalMatchResult.groupValues[1].toInt()&#10;&#10;    val actualTotal = actualTokens.size&#10;&#10;    if (actualTotal != totalTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total tokens ($totalTokens) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val tokenToCount = mutableMapOf&lt;TokenType, Int&gt;()&#10;&#10;    for (token in actualTokens) {&#10;        tokenToCount[token] = (tokenToCount[token] ?: 0) + 1&#10;    }&#10;&#10;    val actualSortedByCount = tokenToCount.toList().sortedWith(compareBy({ it.second }, { it.first }))&#10;    val linesWithTokens = lines.drop(1)&#10;&#10;    if (actualSortedByCount.size != linesWithTokens.size) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Lines with tokens (${linesWithTokens.size}) are incorrect. Expected: ${actualSortedByCount.size}.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Lines with tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    for ((lineId, line) in linesWithTokens.withIndex()) {&#10;        val token = tokenParser(line.substringBefore(':'))&#10;        val info = line.substringAfter(':')&#10;&#10;        val (actualToken, actualTimes) = actualSortedByCount[lineId]&#10;&#10;        if (token != actualToken) {&#10;            return if (clue.revealTest) {&#10;                CheckResult(&#10;                        false,&#10;                        &quot;Token ($token) is incorrect. Expected: $actualToken.\n&quot; +&#10;                                revealRawTest(clue, reply)&#10;                )&#10;            } else {&#10;                CheckResult(false, &quot;Token is incorrect.&quot;)&#10;            }&#10;        }&#10;&#10;        // TODO: check info (times and percentage)&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/Main.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1563030678000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;What if someone runs your program like this: &lt;code&gt;java SortingTool -sortingType&lt;/code&gt;? The value of the &lt;code&gt;-sortingType&lt;/code&gt; argument is missing!&lt;/p&gt;&#10;&#10;&lt;p&gt;And what if &lt;code&gt;-dataType&lt;/code&gt; argument is &lt;code&gt;long&lt;/code&gt; but there are words in the input text?&lt;/p&gt;&#10;&#10;&lt;p&gt;What if there are unknown arguments?&lt;/p&gt;&#10;&#10;&lt;p&gt;Let's handle these errors. &lt;/p&gt;&#10;&#10;&lt;p&gt;In summary, for this stage, implement error messages when the input is wrong.&lt;/p&gt;&#10;&#10;&lt;p&gt; &lt;/p&gt;&#10;&#10;&lt;h2&gt;Run configuration example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -sortingType&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;No sorting type defined!&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2&gt; &lt;/h2&gt;&#10;&#10;&lt;h2&gt;Run configuration example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -dataType&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;No data type defined!&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt; &lt;/p&gt;&#10;&#10;&lt;h2&gt;Run configuration example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java SortingTool -dataType long -sortingType natural -abc -def&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2&gt;Input example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;a 2 -42&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;&quot;-abc&quot; isn't a valid parameter. It's skipped.&#10;&quot;-def&quot; isn't a valid parameter. It's skipped.&#10;&quot;a&quot; isn't a long. It's skipped.&#10;Total numbers: 7.&#10;Sorted data: -42 2&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/45/stages/243/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5385" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Error!" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/SortingTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/SortingTest.java" />
+                                <option name="text" value="import common.SortingToolStage5Test;&#10;&#10;public class SortingTest extends SortingToolStage5Test {&#10;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/SortingToolStage5Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/SortingToolStage5Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import sorting.Main&#10;import java.util.*&#10;&#10;abstract class SortingToolStage5Test : BaseStageTest&lt;SortingToolClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;        return stage4Tests() + stage5Tests()&#10;    }&#10;&#10;    override fun check(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            badArgs(clue.args) -&gt; CheckResult(true)  // TODO: test something here&#10;            &quot;byCount&quot; in clue.args -&gt; checkByCount(reply, clue)&#10;            else -&gt; checkNatural(reply, clue)&#10;        }&#10;    }&#10;&#10;    private fun checkByCount(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;long&quot; in clue.args -&gt; checkByCount(parseLongTokens(clue.consoleInput), { it.toInt() }, clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkByCount(parseWordTokens(clue.consoleInput), { it }, clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkByCount(parseLineTokens(clue.consoleInput), { it }, clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;&#10;    private fun checkNatural(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;long&quot; in clue.args -&gt; checkNatural(parseLongTokens(clue.consoleInput), ::parseLongTokens, clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkNatural(parseWordTokens(clue.consoleInput), ::parseWordTokens, clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkNatural(parseLineTokens(clue.consoleInput), ::parseLineTokens, clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;&#10;    private fun badArgs(args: List&lt;String&gt;): Boolean {&#10;        val unknownArgs =&#10;                args.toSet() - setOf(&quot;-dataType&quot;, &quot;-sortingType&quot;, &quot;long&quot;, &quot;word&quot;, &quot;line&quot;, &quot;natural&quot;, &quot;byCount&quot;)&#10;&#10;        if (unknownArgs.isNotEmpty()) {&#10;            return true&#10;        }&#10;&#10;        if (args.last() == &quot;-dataType&quot; || args.last() == &quot;-sortingType&quot;) {&#10;            return true&#10;        }&#10;&#10;        return false&#10;    }&#10;}&#10;&#10;fun stage5Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;, &quot;-abc&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;, &quot;-cde&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-dataType&quot;, &quot;line&quot;, &quot;-sortingType&quot;&#10;            )&#10;    )&#10;}&#10;&#10;&#10;fun stage4Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;long&quot;, &quot;-sortingType&quot;, &quot;natural&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;long&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;&#10;            )&#10;    )&#10;}&#10;&#10;&#10;fun revealRawTest(clue: SortingToolClue, reply: String): String {&#10;    return with(clue) { &quot;Args:\n${args.joinToString(&quot; &quot;)}\nInput:\n$consoleInput\nYour output:\n$reply\n\n&quot; }&#10;}&#10;&#10;class SortingToolClue(val consoleInput: String, val revealTest: Boolean, val args: List&lt;String&gt;)&#10;&#10;fun createTest(&#10;        consoleInput: String,&#10;        revealTest: Boolean,&#10;        vararg args: String = arrayOf(&quot;-dataType&quot;, &quot;long&quot;)&#10;): TestCase&lt;SortingToolClue&gt; {&#10;    return TestCase&lt;SortingToolClue&gt;()&#10;            .setAttach(SortingToolClue(consoleInput, revealTest, args.toList()))&#10;            .setInput(consoleInput)&#10;            .addArguments(*args)&#10;}&#10;&#10;fun parseLongTokens(input: String): List&lt;Int&gt; {&#10;    val scanner = Scanner(input)&#10;&#10;    val longTokens = mutableListOf&lt;Int&gt;()&#10;&#10;    while (scanner.hasNextInt()) {&#10;        longTokens.add(scanner.nextInt())&#10;    }&#10;&#10;    return longTokens&#10;}&#10;&#10;fun parseWordTokens(input: String): List&lt;String&gt; {&#10;    val scanner = Scanner(input)&#10;&#10;    val wordTokens = mutableListOf&lt;String&gt;()&#10;&#10;    while (scanner.hasNext()) {&#10;        wordTokens.add(scanner.next())&#10;    }&#10;&#10;    return wordTokens&#10;}&#10;&#10;fun parseLineTokens(input: String): List&lt;String&gt; {&#10;    return input.lines()&#10;}&#10;&#10;fun &lt;TokenType : Comparable&lt;TokenType&gt;&gt; checkNatural(&#10;        actualTokens: List&lt;TokenType&gt;,&#10;        sortedTokensParser: (String) -&gt; List&lt;TokenType&gt;,&#10;        clue: SortingToolClue,&#10;        reply_: String&#10;): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    if (lines.size != 2) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output: expected 2 lines.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output: expected 2 lines.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalTokens = totalMatchResult.groupValues[1].toInt()&#10;&#10;    val actualTotal = actualTokens.size&#10;&#10;    if (actualTotal != totalTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total tokens ($totalTokens) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val sortedActualTokens = actualTokens.sorted()&#10;&#10;    val sortedTokens = sortedTokensParser(lines[1].substringAfter(&quot;:&quot;).dropWhile { it in setOf('\n', '\r') })&#10;&#10;    val total = sortedTokens.size&#10;&#10;    if (actualTotal != total) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total sorted tokens ($total) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    if (sortedActualTokens != sortedTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Sorted tokens are incorrect.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;fun &lt;TokenType : Comparable&lt;TokenType&gt;&gt; checkByCount(&#10;        actualTokens: List&lt;TokenType&gt;,&#10;        tokenParser: (String) -&gt; TokenType,&#10;        clue: SortingToolClue,&#10;        reply_: String&#10;): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalTokens = totalMatchResult.groupValues[1].toInt()&#10;&#10;    val actualTotal = actualTokens.size&#10;&#10;    if (actualTotal != totalTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total tokens ($totalTokens) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val tokenToCount = mutableMapOf&lt;TokenType, Int&gt;()&#10;&#10;    for (token in actualTokens) {&#10;        tokenToCount[token] = (tokenToCount[token] ?: 0) + 1&#10;    }&#10;&#10;    val actualSortedByCount = tokenToCount.toList().sortedWith(compareBy({ it.second }, { it.first }))&#10;    val linesWithTokens = lines.drop(1)&#10;&#10;    if (actualSortedByCount.size != linesWithTokens.size) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Lines with tokens (${linesWithTokens.size}) are incorrect. Expected: ${actualSortedByCount.size}.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Lines with tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    for ((lineId, line) in linesWithTokens.withIndex()) {&#10;        val token = tokenParser(line.substringBefore(':'))&#10;        val info = line.substringAfter(':')&#10;&#10;        val (actualToken, actualTimes) = actualSortedByCount[lineId]&#10;&#10;        if (token != actualToken) {&#10;            return if (clue.revealTest) {&#10;                CheckResult(&#10;                        false,&#10;                        &quot;Token ($token) is incorrect. Expected: $actualToken.\n&quot; +&#10;                                revealRawTest(clue, reply)&#10;                )&#10;            } else {&#10;                CheckResult(false, &quot;Token is incorrect.&quot;)&#10;            }&#10;        }&#10;&#10;        // TODO: check info (times and percentage)&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/Main.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1563030744000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Sometimes it's useful to read data from a file and write the result to another file.&lt;/p&gt;&#10;&#10;&lt;p&gt;Implement parsing of two more arguments: &lt;code&gt;-inputFile&lt;/code&gt; and &lt;code&gt;-outputFile&lt;/code&gt;.&lt;br&gt;&#10;  If the &lt;code&gt;-inputFile&lt;/code&gt; argument is provided, read input data from the file with the given name.&lt;br&gt;&#10;  If the &lt;code&gt;-outputFile&lt;/code&gt; argument is provided, only print info messages to the console (like errors parsing arguments).&lt;br&gt;&#10;  Print the results to the file.&lt;/p&gt;&#10;&#10;&lt;h2&gt;Run configuration examples&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;java SortingTool -sortingType byCount -inputFile input.txt&lt;/code&gt;&#10;&lt;code&gt;java SortingTool -sortingType byCount -inputFile data.dat -outputFile out.txt&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/45/stages/244/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5386" />
+                      <option name="index" value="6" />
+                      <option name="name" value="X-files" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/SortingTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/SortingTest.java" />
+                                <option name="text" value="import common.SortingToolStage6Test;&#10;&#10;public class SortingTest extends SortingToolStage6Test {&#10;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/SortingToolStage6Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/SortingToolStage6Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import sorting.Main&#10;import java.io.File&#10;import java.util.*&#10;&#10;abstract class SortingToolStage6Test : BaseStageTest&lt;SortingToolClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;        return stage4Tests() + stage5Tests() + stage6Tests()&#10;    }&#10;&#10;    override fun check(reply: String, clue: SortingToolClue): CheckResult {&#10;        @Suppress(&quot;NAME_SHADOWING&quot;) var reply = reply&#10;&#10;        val fileNameArgIdx = clue.args.indexOf(&quot;-outputFile&quot;)&#10;&#10;        if (fileNameArgIdx != -1) {&#10;            val fileName = clue.args[fileNameArgIdx + 1]&#10;&#10;            reply = File(fileName).readText()&#10;        }&#10;&#10;        return when {&#10;            badArgs(clue.args) -&gt; CheckResult(true)  // TODO: test something here&#10;            &quot;byCount&quot; in clue.args -&gt; checkByCount(reply, clue)&#10;            else -&gt; checkNatural(reply, clue)&#10;        }&#10;    }&#10;&#10;    private fun checkByCount(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;long&quot; in clue.args -&gt; checkByCount(parseLongTokens(clue.consoleInput), { it.toInt() }, clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkByCount(parseWordTokens(clue.consoleInput), { it }, clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkByCount(parseLineTokens(clue.consoleInput), { it }, clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;&#10;    private fun checkNatural(reply: String, clue: SortingToolClue): CheckResult {&#10;        return when {&#10;            &quot;long&quot; in clue.args -&gt; checkNatural(parseLongTokens(clue.consoleInput), ::parseLongTokens, clue, reply)&#10;            &quot;word&quot; in clue.args -&gt; checkNatural(parseWordTokens(clue.consoleInput), ::parseWordTokens, clue, reply)&#10;            &quot;line&quot; in clue.args -&gt; checkNatural(parseLineTokens(clue.consoleInput), ::parseLineTokens, clue, reply)&#10;&#10;            else -&gt; throw IllegalArgumentException(&quot;Bad test: no data type found&quot;)&#10;        }&#10;    }&#10;&#10;    private fun badArgs(args: List&lt;String&gt;): Boolean {&#10;        val unknownArgs =&#10;                args.toSet() - setOf(&quot;-dataType&quot;, &quot;-sortingType&quot;, &quot;long&quot;, &quot;word&quot;, &quot;line&quot;, &quot;natural&quot;, &quot;byCount&quot;)&#10;&#10;        if (unknownArgs.isNotEmpty()) {&#10;            return true&#10;        }&#10;&#10;        if (args.last() == &quot;-dataType&quot; || args.last() == &quot;-sortingType&quot;) {&#10;            return true&#10;        }&#10;&#10;        return false&#10;    }&#10;}&#10;&#10;private fun fileTestCase(&#10;        input: String,&#10;        revealTest: Boolean,&#10;        file: String,&#10;        vararg args: String = arrayOf(&quot;-dataType&quot;, &quot;long&quot;)&#10;): TestCase&lt;SortingToolClue&gt; {&#10;    return TestCase&lt;SortingToolClue&gt;()&#10;            .setAttach(SortingToolClue(input, revealTest, args.toList()))&#10;            .addArguments(*args)&#10;            .addFile(file, input)&#10;}&#10;&#10;fun stage4Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;long&quot;, &quot;-sortingType&quot;, &quot;natural&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-dataType&quot;, &quot;long&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;word&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;&#10;            )&#10;    )&#10;}&#10;&#10;fun stage5Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;long&quot;, &quot;-abc&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-dataType&quot;, &quot;line&quot;, &quot;-cde&quot;&#10;            ),&#10;            createTest(&#10;                    &quot;&quot;&quot;&#10;                |1111 1111&#10;                |22222&#10;                |3&#10;                |44&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;-dataType&quot;, &quot;line&quot;, &quot;-sortingType&quot;&#10;            )&#10;    )&#10;}&#10;&#10;fun stage6Tests(): List&lt;TestCase&lt;SortingToolClue&gt;&gt; {&#10;    return listOf(&#10;            fileTestCase(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;input.txt&quot;,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-inputFile&quot;, &quot;input.txt&quot;&#10;            ),&#10;            fileTestCase(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    true,&#10;                    &quot;data.dat&quot;,&#10;                    &quot;-sortingType&quot;, &quot;byCount&quot;, &quot;-inputFile&quot;, &quot;data.dat&quot;, &quot;-outputFile&quot;, &quot;out.txt&quot;&#10;            ),&#10;            fileTestCase(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;input.txt&quot;,&#10;                    &quot;-sortingType&quot;, &quot;natural&quot;, &quot;-inputFile&quot;, &quot;input.txt&quot;&#10;            ),&#10;            fileTestCase(&#10;                    &quot;&quot;&quot;&#10;                |1 -2   333 4&#10;                |42&#10;                |1                 1&#10;                &quot;&quot;&quot;.trimMargin(),&#10;                    false,&#10;                    &quot;data.dat&quot;,&#10;                    &quot;-sortingType&quot;, &quot;natural&quot;, &quot;-inputFile&quot;, &quot;data.dat&quot;, &quot;-outputFile&quot;, &quot;out.txt&quot;&#10;            )&#10;    )&#10;}&#10;&#10;&#10;fun revealRawTest(clue: SortingToolClue, reply: String): String {&#10;    return with(clue) { &quot;Args:\n${args.joinToString(&quot; &quot;)}\nInput:\n$consoleInput\nYour output:\n$reply\n\n&quot; }&#10;}&#10;&#10;class SortingToolClue(val consoleInput: String, val revealTest: Boolean, val args: List&lt;String&gt;)&#10;&#10;fun createTest(&#10;        consoleInput: String,&#10;        revealTest: Boolean,&#10;        vararg args: String = arrayOf(&quot;-dataType&quot;, &quot;long&quot;)&#10;): TestCase&lt;SortingToolClue&gt; {&#10;    return TestCase&lt;SortingToolClue&gt;()&#10;            .setAttach(SortingToolClue(consoleInput, revealTest, args.toList()))&#10;            .setInput(consoleInput)&#10;            .addArguments(*args)&#10;}&#10;&#10;fun parseLongTokens(input: String): List&lt;Int&gt; {&#10;    val scanner = Scanner(input)&#10;&#10;    val longTokens = mutableListOf&lt;Int&gt;()&#10;&#10;    while (scanner.hasNextInt()) {&#10;        longTokens.add(scanner.nextInt())&#10;    }&#10;&#10;    return longTokens&#10;}&#10;&#10;fun parseWordTokens(input: String): List&lt;String&gt; {&#10;    val scanner = Scanner(input)&#10;&#10;    val wordTokens = mutableListOf&lt;String&gt;()&#10;&#10;    while (scanner.hasNext()) {&#10;        wordTokens.add(scanner.next())&#10;    }&#10;&#10;    return wordTokens&#10;}&#10;&#10;&#10;fun parseLineTokens(input: String): List&lt;String&gt; {&#10;    return input.lines()&#10;}&#10;&#10;&#10;fun &lt;TokenType : Comparable&lt;TokenType&gt;&gt; checkNatural(&#10;        actualTokens: List&lt;TokenType&gt;,&#10;        sortedTokensParser: (String) -&gt; List&lt;TokenType&gt;,&#10;        clue: SortingToolClue,&#10;        reply_: String&#10;): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    if (lines.size != 2) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't parse your output: expected 2 lines.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't parse your output: expected 2 lines.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalTokens = totalMatchResult.groupValues[1].toInt()&#10;&#10;    val actualTotal = actualTokens.size&#10;&#10;    if (actualTotal != totalTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total tokens ($totalTokens) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val sortedActualTokens = actualTokens.sorted()&#10;&#10;    val sortedTokens = sortedTokensParser(lines[1].substringAfter(&quot;:&quot;).dropWhile { it in setOf('\n', '\r') })&#10;&#10;    val total = sortedTokens.size&#10;&#10;    if (actualTotal != total) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total sorted tokens ($total) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    if (sortedActualTokens != sortedTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Sorted tokens are incorrect.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Sorted tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;&#10;fun &lt;TokenType : Comparable&lt;TokenType&gt;&gt; checkByCount(&#10;        actualTokens: List&lt;TokenType&gt;,&#10;        tokenParser: (String) -&gt; TokenType,&#10;        clue: SortingToolClue,&#10;        reply_: String&#10;): CheckResult {&#10;    val reply = reply_.trim()&#10;    val lines = reply.lines()&#10;&#10;    val totalRegex = &quot;&quot;&quot;(\d+)&quot;&quot;&quot;.toRegex()&#10;    val totalMatchResult = totalRegex.find(lines[0])&#10;    if (totalMatchResult == null) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Can't find number in the first line of your output.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Can't find number in the first line of your output.&quot;)&#10;        }&#10;    }&#10;&#10;    val totalTokens = totalMatchResult.groupValues[1].toInt()&#10;&#10;    val actualTotal = actualTokens.size&#10;&#10;    if (actualTotal != totalTokens) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Total tokens ($totalTokens) are incorrect. Expected: $actualTotal.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Total tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    val tokenToCount = mutableMapOf&lt;TokenType, Int&gt;()&#10;&#10;    for (token in actualTokens) {&#10;        tokenToCount[token] = (tokenToCount[token] ?: 0) + 1&#10;    }&#10;&#10;    val actualSortedByCount = tokenToCount.toList().sortedWith(compareBy({ it.second }, { it.first }))&#10;    val linesWithTokens = lines.drop(1)&#10;&#10;    if (actualSortedByCount.size != linesWithTokens.size) {&#10;        return if (clue.revealTest) {&#10;            CheckResult(&#10;                    false,&#10;                    &quot;Lines with tokens (${linesWithTokens.size}) are incorrect. Expected: ${actualSortedByCount.size}.\n&quot; +&#10;                            revealRawTest(clue, reply)&#10;            )&#10;        } else {&#10;            CheckResult(false, &quot;Lines with tokens are incorrect.&quot;)&#10;        }&#10;    }&#10;&#10;    for ((lineId, line) in linesWithTokens.withIndex()) {&#10;        val token = tokenParser(line.substringBefore(':'))&#10;        val info = line.substringAfter(':')&#10;&#10;        val (actualToken, actualTimes) = actualSortedByCount[lineId]&#10;&#10;        if (token != actualToken) {&#10;            return if (clue.revealTest) {&#10;                CheckResult(&#10;                        false,&#10;                        &quot;Token ($token) is incorrect. Expected: $actualToken.\n&quot; +&#10;                                revealRawTest(clue, reply)&#10;                )&#10;            } else {&#10;                CheckResult(false, &quot;Token is incorrect.&quot;)&#10;            }&#10;        }&#10;&#10;        // TODO: check info (times and percentage)&#10;    }&#10;&#10;    return CheckResult(true)&#10;}&#10;&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/Main.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1563030678000" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
