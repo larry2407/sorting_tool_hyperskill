@@ -439,7 +439,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="0" />
+                <option name="currentTaskIndex" value="1" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -461,7 +461,7 @@
                       <option name="id" value="5613" />
                       <option name="index" value="1" />
                       <option name="name" value="Numbers only" />
-                      <option name="record" value="-1" />
+                      <option name="record" value="1" />
                       <option name="status" value="Solved" />
                       <option name="files">
                         <map>
