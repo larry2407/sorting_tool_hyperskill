@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SortingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T06:51:35" hostname="DESKTOP-IVHFBFK" time="1.122">
+  <properties/>
+  <testcase name="start" classname="SortingTest" time="1.122"/>
+  <system-out><![CDATA[Total numbers: 7.
+The greatest number: 42 (1 time(s)).
+Total numbers: 7.
+The greatest number: 5 (2 time(s)).
+Total numbers: 8.
+The greatest number: 4 (3 time(s)).
+]]></system-out>
+  <system-err><![CDATA[Start test 1
+Start test 2
+Start test 3
+]]></system-err>
+</testsuite>
