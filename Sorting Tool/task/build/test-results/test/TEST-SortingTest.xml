@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SortingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T06:51:35" hostname="DESKTOP-IVHFBFK" time="1.122">
+<testsuite name="SortingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T15:07:35" hostname="DESKTOP-IVHFBFK" time="0.394">
   <properties/>
-  <testcase name="start" classname="SortingTest" time="1.122"/>
+  <testcase name="start" classname="SortingTest" time="0.394"/>
   <system-out><![CDATA[Total numbers: 7.
-The greatest number: 42 (1 time(s)).
+The greatest number: 42 (1 time(s), 14%).
 Total numbers: 7.
-The greatest number: 5 (2 time(s)).
+The greatest number: 5 (2 time(s), 28%).
 Total numbers: 8.
-The greatest number: 4 (3 time(s)).
+The greatest number: 4 (3 time(s), 37%).
+Total words: 7.
+The longest word: 333 (1 time(s), 14%).
+Total words: 3.
+The longest word: abcc (1 time(s), 33%).
+Total lines: 3.
+The longest line:
+1                 1
+(1 time(s), 33%).
+Total lines: 4.
+The longest line:
+22222
+(1 time(s), 25%).
+Total numbers: 7.
+Sorted data: -2 1 1 1 4 42 333
+Total numbers: 7.
+Sorted data: -2 1 1 1 4 42 333
+Total numbers: 4.
+Sorted data: 3 44 1111 22222
 ]]></system-out>
   <system-err><![CDATA[Start test 1
 Start test 2
 Start test 3
+Start test 4
+Start test 5
+Start test 6
+Start test 7
+Start test 8
+Start test 9
+Start test 10
 ]]></system-err>
 </testsuite>

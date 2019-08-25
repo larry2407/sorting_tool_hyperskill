@@ -439,7 +439,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="1" />
+                <option name="currentTaskIndex" value="3" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -524,8 +524,8 @@
                       <option name="id" value="5382" />
                       <option name="index" value="2" />
                       <option name="name" value="Not only numbers" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/SortingTest.java">
@@ -562,7 +562,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/sorting/Main.java" />
                                 <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -587,8 +587,8 @@
                       <option name="id" value="5383" />
                       <option name="index" value="3" />
                       <option name="name" value="Sorting it out" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="3" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/SortingTest.java">
@@ -625,7 +625,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/sorting/Main.java" />
                                 <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -650,7 +650,7 @@
                       <option name="id" value="5384" />
                       <option name="index" value="4" />
                       <option name="name" value="Everything counts" />
-                      <option name="record" value="-1" />
+                      <option name="record" value="4" />
                       <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
@@ -829,6 +829,228 @@
                   </list>
                 </option>
               </FrameworkLesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="Problems" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Creating a set&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2330&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;Create TreeSet by name &lt;/span&gt;&lt;span style=&quot;color: #ff4363;&quot;&gt;set&lt;/span&gt;&lt;span&gt; in any way known to you and fill it with the following three strings &lt;/span&gt;&lt;span style=&quot;color: #64b0f4;&quot;&gt;&quot;Gamma&quot;, &lt;span style=&quot;color: #64b0f4;&quot;&gt;&quot;Alpha&quot;&lt;/span&gt;, &quot;Omega&quot;&lt;/span&gt; .&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;The code for displaying the set is already written.&lt;b&gt;&lt;/b&gt;&lt;/p&gt; &#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;[Alpha, Gamma, Omega]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3575&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2330" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2330" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Creating a set" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;&#10;    public static void main(String[] args) {&#10;&#10;        //write your code here&#10;&#10;        System.out.println(set);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1553865998000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Removing duplicates and sorting&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2771&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;Write a program that reads a sequence of strings from the standard input and displays them in a lexicographic order without duplicates.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;Try to write your solution using a set.&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;Input data format&lt;/b&gt;&lt;/p&gt;&#10;  &lt;p&gt;The first line contains the size of a string sequence. Next lines contain strings.&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;Output data format&lt;/b&gt;&lt;/p&gt;&#10;  &lt;p&gt;A sorted sequence of strings without duplicates. Each string must be in a new line.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;6&lt;br&gt;postgres&lt;br&gt;sqlite&lt;br&gt;oracle&lt;br&gt;mongodb&lt;br&gt;postgres&lt;br&gt;mssql&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;mongodb&lt;br&gt;mssql&lt;br&gt;oracle&lt;br&gt;postgres&lt;br&gt;sqlite&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;1&lt;br&gt;2&lt;br&gt;2&lt;br&gt;11&lt;br&gt;20&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;11&lt;br&gt;2&lt;br&gt;20&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3575&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2771" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2771" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Removing duplicates and sorting" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088467000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Symmetric difference&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2333&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;Implement a method for finding the symmetric difference of two given sets. Elements in the resulting set can be in any order.&lt;/span&gt;&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;An example&lt;/b&gt;&lt;/p&gt;&#10;  &lt;p&gt;The symmetric difference of two sets {1, 2, 3} and {0, 1, 2} is {0, 3}&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1 2 3&lt;br&gt;0 1 2&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0 3&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3575&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2333" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2333" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Symmetric difference" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;class SetUtils {&#10;&#10;    /**&#10;     * @return symmetric difference between set1 and set2&#10;     */&#10;    public static &lt;T&gt; Set&lt;T&gt; symmetricDifference(Set&lt;? extends T&gt; set1, Set&lt;? extends T&gt; set2) {&#10;        // write your code here&#10;    }&#10;&#10;}&#10;&#10;/* Do not change code below */&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        String strSet1 = scanner.nextLine();&#10;        String strSet2 = scanner.nextLine();&#10;        Set&lt;String&gt; set1 = new HashSet&lt;&gt;();&#10;        Set&lt;String&gt; set2 = new HashSet&lt;&gt;();&#10;        if (!strSet1.equals(&quot;empty&quot;)){&#10;            Collections.addAll(set1, strSet1.split(&quot; &quot;));&#10;        }&#10;        if (!strSet2.equals(&quot;empty&quot;)){&#10;            Collections.addAll(set2, strSet2.split(&quot; &quot;));&#10;        }&#10;        Set&lt;String&gt; resultSet = SetUtils.symmetricDifference(set1, set2);&#10;        resultSet.forEach(e -&gt; System.out.print(e + &quot; &quot;));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088434000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Displaying pairs&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2346&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;The map is given. &lt;/span&gt;&#10;   &lt;span&gt;Output each its key-value pair in the loop with a new line.&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    Each line must be in form of &#10;    &lt;b&gt;key=value&lt;/b&gt; (for example, Gamma=3)&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Alpha=1&lt;br&gt;Gamma=3&lt;br&gt;Omega=24&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3558&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2346" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2346" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Displaying pairs" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Map&lt;String, Integer&gt; map = new TreeMap&lt;&gt;();&#10;        map.put(&quot;Gamma&quot;,  3);&#10;        map.put(&quot;Omega&quot;, 24);&#10;        map.put(&quot;Alpha&quot;,  1);&#10;&#10;        //write your code here    &#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1555340296000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Processing maps - 2&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2349&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;Modify and return the given map as follows: &lt;/span&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;ul&gt;&#10;    &lt;li&gt;if the first key % 2 != 0 return sub-map from First Key inclusive to FirstKey+4 inclusive in descending order&lt;br&gt;&lt;/li&gt;&#10;    &lt;li&gt;else return sub-map from LastKey-4 inclusive to the Last Key inclusive in descending order&lt;br&gt;&lt;/li&gt;&#10;   &lt;/ul&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1:one 2:two 3:three 4:four 5:five 6:six 7:seven&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;5 : five&lt;br&gt;4 : four&lt;br&gt;3 : three&lt;br&gt;2 : two&lt;br&gt;1 : one&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2:two 4:four 6:six 8:eight 10:ten 12:twelve 14:fourteen&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;14 : fourteen&lt;br&gt;12 : twelve&lt;br&gt;10 : ten&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3558&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2349" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2349" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Processing maps - 2" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.*;&#10;&#10;class MapUtils {&#10;&#10;    public static NavigableMap&lt;Integer, String&gt; getSubMap(NavigableMap&lt;Integer, String&gt; map){&#10;        // write your code here&#10;    }&#10;&#10;}&#10;&#10;/* Do not modify code below */&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        TreeMap&lt;Integer, String&gt; map = new TreeMap&lt;&gt;();&#10;        Arrays.stream(scanner.nextLine().split(&quot;\\s&quot;)).forEach(s -&gt; {&#10;            String[] pair = s.split(&quot;:&quot;);&#10;            map.put(Integer.parseInt(pair[0]),pair[1]);&#10;        });&#10;        NavigableMap&lt;Integer, String&gt; res = MapUtils.getSubMap(map);&#10;        res.forEach((k, v) -&gt; System.out.println(k + &quot; : &quot; + v));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088435000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Multiset&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2484&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;A &lt;/span&gt;&lt;b&gt;multiset&lt;/b&gt;&lt;span&gt; is a generalization of the concept of a set. Unlike sets, it can store duplicate elements. The number of instances of an element is the &lt;/span&gt;&lt;b&gt;multiplicity.&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;For example, given the following multiset:&lt;br&gt;&lt;/p&gt;&#10;  &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;{a, a, b, b, b, c}&lt;/code&gt;&lt;/pre&gt;&#10;  &lt;p&gt;The multiplicity of &lt;b&gt;a&lt;/b&gt; is 2, the multiplicity of &lt;b&gt;b&lt;/b&gt; is 3, the multiplicity of &lt;b&gt;c&lt;/b&gt; is 1. If a multiset does not have an element, the multiplicity of it is 0.&lt;/p&gt;&#10;  &lt;div&gt;&#10;   Write an implementation of the provided generic interface &#10;   &lt;b&gt;Multiset&lt;/b&gt;. The template for your generic class named &#10;   &lt;b&gt;HashMultiset&lt;/b&gt; is given as well. You should implement all methods of the class, according to its interface. You also can add additional methods for helping.&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Read the given interface to understand the common multiset operations (add, remove, union, intersection and so one).&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Do not forget to test your class. If your implementation is not correct, the testing system gives you a hint throwing an exception with a text, like:&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Exception in thread &quot;main&quot; java.lang.AssertionError: size() returned an incorrect result&lt;/code&gt;&lt;/pre&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;p&gt;When you pass your solution to the submit form, do not remove the interface and do not make it and the class public.&lt;br&gt;&lt;/p&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3558&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2484" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2484" />
+                      <option name="index" value="6" />
+                      <option name="name" value="Multiset" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="interface Multiset&lt;E&gt; {&#10;&#10;    /**&#10;     * Add an element to the multiset.&#10;     * It increases the multiplicity of the element by 1.&#10;     */&#10;    void add(E elem);&#10;&#10;    /**&#10;     * Remove an element from the multiset.&#10;     * It decreases the multiplicity of the element by 1.&#10;     */&#10;    void remove(E elem);&#10;&#10;    /**&#10;     * Union this multiset with another one. The result is the modified multiset (this).&#10;     * It will contain all elements that are present in at least one of the initial multisets.&#10;     * The multiplicity of each element is equal to the maximum multiplicity of&#10;     * the corresponding elements in both multisets.&#10;     */&#10;    void union(Multiset&lt;E&gt; other);&#10;&#10;    /**&#10;     * Intersect this multiset with another one. The result is the modified multiset (this).&#10;     * It will contain all elements that are present in the both multisets.&#10;     * The multiplicity of each element is equal to the minimum multiplicity of&#10;     * the corresponding elements in the intersecting multisets.&#10;     */&#10;    void intersect(Multiset&lt;E&gt; other);&#10;&#10;    /**&#10;     * Returns multiplicity of the given element.&#10;     * If the set doesn't contain it, the multiplicity is 0&#10;     */&#10;    int getMultiplicity(E elem);&#10;&#10;    /**&#10;     * Check the multiset contains an element,&#10;     * i.e. the multiplicity &gt; 0&#10;     */&#10;    boolean contains(E elem);&#10;&#10;    /**&#10;     * The number of unique elements&#10;     */&#10;    int numberOfUniqueElements();&#10;&#10;    /**&#10;     * The size of the multiset, including repeated elements&#10;     */&#10;    int size();&#10;&#10;    /**&#10;     * The set of unique elements (without repeating)&#10;     */&#10;    Set&lt;E&gt; toSet();&#10;}&#10;&#10;class HashMultiset&lt;E&gt; implements Multiset&lt;E&gt; {&#10;&#10;    private Map&lt;E, Integer&gt; map = new HashMap&lt;&gt;();&#10;&#10;    @Override&#10;    public void add(E elem) {&#10;        // implement the method&#10;    }&#10;&#10;    @Override&#10;    public void remove(E elem) {&#10;        // implement the method&#10;    }&#10;&#10;    @Override&#10;    public void union(Multiset&lt;E&gt; other) {&#10;        // implement the method&#10;    }&#10;&#10;    @Override&#10;    public void intersect(Multiset&lt;E&gt; other) {&#10;        // implement the method&#10;    }&#10;&#10;    @Override&#10;    public int getMultiplicity(E elem) {&#10;        // implement the method&#10;        return 0;&#10;    }&#10;&#10;    @Override&#10;    public boolean contains(E elem) {&#10;        // implement the method&#10;        return false;&#10;    }&#10;&#10;    @Override&#10;    public int numberOfUniqueElements() {&#10;        // implement the method&#10;        return 0;&#10;    }&#10;&#10;    @Override&#10;    public int size() {&#10;        // implement the method&#10;        return 0;&#10;    }&#10;&#10;    @Override&#10;    public Set&lt;E&gt; toSet() {&#10;        // implement the method&#10;        return map.keySet();&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088452000" />
+                    </CodeTask>
+                  </list>
+                </option>
+              </Lesson>
             </list>
           </option>
         </HyperskillCourse>
