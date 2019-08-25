@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 interface Multiset<E> {
 
@@ -66,7 +64,8 @@ class HashMultiset<E> implements Multiset<E> {
 
     @Override
     public void add(E elem) {
-        int newVal = map.getOrDefault(elem, 0);
+
+        int newVal = null != map.get(elem) ? map.getOrDefault(elem, 0) : 0;
         //if(newVal>1){
         map.put(elem, newVal+1);
         //}
@@ -77,6 +76,9 @@ class HashMultiset<E> implements Multiset<E> {
         if(this.contains(elem)){
             int currentVal=map.get(elem);
             map.put(elem, currentVal-1);
+        }
+        if(this.getMultiplicity(elem) == 0){
+            this.map.remove(elem);
         }
     }
 
@@ -95,48 +97,46 @@ class HashMultiset<E> implements Multiset<E> {
 
     @Override
     public void intersect(Multiset<E> other) {
-        for(E o: other.toSet()){
-            if(this.contains(o)){
-                int thisVal = this.getMultiplicity(o);
-                int oVal = other.getMultiplicity(o);
-                map.put(o, Math.min(thisVal, oVal));
-            }
-        }
-        for(E e: this.toSet()){
-            if(!other.contains(e)){
+        int l = this.toSet().size();
+        List<E> listSet = new ArrayList<>(this.toSet());
+        for(int j=l-1; j>=0; j--){
+            E e = listSet.get(j);
+            if (!other.contains(e)){
                 map.remove(e);
+            }else{
+                int thisVal = this.getMultiplicity(e);
+                int oVal = other.getMultiplicity(e);
+                map.put(e, Math.min(thisVal, oVal));
             }
         }
     }
 
     @Override
     public int getMultiplicity(E elem) {
-        // implement the method
-        return map.getOrDefault(elem, 0);
+        return null != map.get(elem) ? map.getOrDefault(elem, 0) : 0;
     }
 
     @Override
     public boolean contains(E elem) {
-        return map.containsKey(elem) &&  map.getOrDefault(elem, 0) > 0;
+        return this.getMultiplicity(elem) > 0;
     }
 
     @Override
     public int numberOfUniqueElements() {
         int count =0;
         for(E o:this.toSet()){
-            int currentVal = map.getOrDefault(o, 0);
-            if(currentVal == 1){
+            if( this.getMultiplicity(o) == 1){
                 count++;
             }
         }
-        return count;
+        return count<=this.size() ? count : 0;
     }
 
     @Override
     public int size() {
         int countSize =0;
         for(E o:this.toSet()){
-            int currentVal = map.getOrDefault(o, 0);
+            int currentVal = this.getMultiplicity(o);
             if(currentVal>0) {
                 countSize += currentVal;
             }
@@ -146,11 +146,28 @@ class HashMultiset<E> implements Multiset<E> {
 
     @Override
     public Set<E> toSet() {
-        return map.keySet();
+        List<E> listSet = new ArrayList<>(this.map.keySet());
+        int l = listSet.size();
+        for(int j=l-1; j>=0; j--){
+            E e = listSet.get(j);
+            if(this.getMultiplicity(e)==0){
+                map.remove(e);
+            }
+        }
+
+        return this.map.keySet();
+    }
+
+    @Override
+    public String toString(){
+
+        return this.map.entrySet().toString();
     }
 }
-/* Do not modify code below */
 public class Main {
+
+    private static Random rand = new Random();
+
     public static void main(String[] args) {
        Multiset<Character> testMS = new HashMultiset<>();
        testMS.add('a');
@@ -159,16 +176,39 @@ public class Main {
        testMS.add('b');
        testMS.add('b');
        testMS.add('c');
-       testMS.remove('c');
-        testMS.add('c');
-        System.out.println("the size is:"+testMS.size());
-        System.out.println("the number of unique elements is:"+testMS.numberOfUniqueElements());
-        for(Character c: testMS.toSet()){
-            //System.out.println(testMS.getMultiplicity(c));
-            System.out.println(testMS.contains(c));
-            //System.out.println(testMS.contains('d'));
-        }
 
+        System.out.println("testMS: "+testMS);
+        System.out.println("unique elements in testMS: "+testMS.numberOfUniqueElements());
+        Multiset<Character> testMS2 = createRandomMultiset(6);
+        System.out.println("testMS2: "+testMS2);
+        System.out.println("unique elements in testMS2: "+testMS2.numberOfUniqueElements());
+        Multiset<Character> testMS3 = createRandomMultiset(7);
+        System.out.println("testMS3: "+testMS3);
+        System.out.println("unique elements in testMS3: "+testMS3.numberOfUniqueElements());
+
+        testMS2.intersect(testMS3);
+        System.out.println("Intersection between testMS2 and testMS3: "+testMS2);
+        System.out.println("testMS3 should not have changed: "+testMS3);
+        System.out.println("unique elements in Intersection between testMS2 and testMS3: "+testMS2.numberOfUniqueElements());
+/*
+        Multiset<Character> testMS4 = testMS2;
+        testMS4.union(testMS3);
+        System.out.println("testMS4: "+testMS4);
+        Multiset<Character> testMS5 = testMS2;
+        testMS5.intersect(testMS3);
+        System.out.println("testMS5: "+testMS5);
+        System.out.println("unique elements in testMS4: "+testMS4.numberOfUniqueElements());
+        System.out.println("unique elements in testMS5: "+testMS5.numberOfUniqueElements());
+*/
+
+    }
+
+    private static Multiset<Character> createRandomMultiset(int n){
+        Multiset<Character> randMS = new HashMultiset<>();
+        for(int i=0; i<n; i++){
+            randMS.add((char)(97+rand.nextInt(26)));
+        }
+        return randMS;
     }
 }
 

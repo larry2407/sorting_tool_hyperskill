@@ -12,6 +12,8 @@
       <module name="Problems-Processing_maps_-_2_test" target="11" />
       <module name="Problems-Removing_duplicates_and_sorting_main" target="11" />
       <module name="Problems-Removing_duplicates_and_sorting_test" target="11" />
+      <module name="Problems-Spell_checker_main" target="11" />
+      <module name="Problems-Spell_checker_test" target="11" />
       <module name="Problems-Symmetric_difference_main" target="11" />
       <module name="Problems-Symmetric_difference_test" target="11" />
       <module name="Sorting_Tool-task_main" target="11" />

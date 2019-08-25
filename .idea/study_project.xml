@@ -1048,6 +1048,41 @@
                       </option>
                       <option name="updateDate" value="1541088452000" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Spell checker&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2351&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;The simplest spell checker is based on a list of known words. Every word in the checked text is searched for in this list and, if such a word was not found, it is marked as erroneous.&lt;/span&gt;&lt;br&gt;&lt;/p&gt; &#10;  &lt;p&gt;Write this spell checker.&lt;/p&gt; &#10;  &lt;p&gt;The first line of the input contains &lt;span class=&quot;math-tex&quot;&gt;\( d \)&lt;/span&gt; – number of records in the list of known word. Next go &lt;span class=&quot;math-tex&quot;&gt;\( d \)&lt;/span&gt; lines contain one known word per line, next — the number &lt;span class=&quot;math-tex&quot;&gt;\( l \)&lt;/span&gt; of lines of the text, after which — &lt;span class=&quot;math-tex&quot;&gt;\( l \)&lt;/span&gt; lines of the text.&lt;/p&gt; &#10;  &lt;p&gt;Write a program that outputs those words from the text, which are not found in the dictionary (i.e. erroneous). Your spell checker should be case insensitive. The words are entered in an arbitrary order. Words, which are not found in the dictionary, should not be duplicated in the output.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;3&lt;br&gt;a&lt;br&gt;bb&lt;br&gt;cCc&lt;br&gt;2&lt;br&gt;a bb aab aba ccc&lt;br&gt;c bb aaa&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;c&lt;br&gt;aab&lt;br&gt;aaa&lt;br&gt;aba&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3558&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2351" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2351" />
+                      <option name="index" value="7" />
+                      <option name="name" value="Spell checker" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088445000" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
