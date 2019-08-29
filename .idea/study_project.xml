@@ -439,7 +439,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="3" />
+                <option name="currentTaskIndex" value="5" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -651,7 +651,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="Everything counts" />
                       <option name="record" value="4" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/SortingTest.java">
@@ -688,9 +688,37 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/sorting/Main.java" />
                                 <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Multiset.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/sorting/Multiset.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/TreeMultiset.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/sorting/TreeMultiset.java" />
+                                <option name="text" value="" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -713,8 +741,8 @@
                       <option name="id" value="5385" />
                       <option name="index" value="5" />
                       <option name="name" value="Error!" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="5" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/SortingTest.java">
@@ -751,9 +779,37 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/sorting/Main.java" />
                                 <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Multiset.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/Multiset.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.Set;&#10;&#10;interface Multiset&lt;E&gt; {&#10;&#10;    /**&#10;     * Add an element to the multiset.&#10;     * It increases the multiplicity of the element by 1.&#10;     */&#10;    void add(E elem);&#10;&#10;    /**&#10;     * Remove an element from the multiset.&#10;     * It decreases the multiplicity of the element by 1.&#10;     */&#10;    void remove(E elem);&#10;&#10;    /**&#10;     * Union this multiset with another one. The result is the modified multiset (this).&#10;     * It will contain all elements that are present in at least one of the initial multisets.&#10;     * The multiplicity of each element is equal to the maximum multiplicity of&#10;     * the corresponding elements in both multisets.&#10;     */&#10;    void union(Multiset&lt;E&gt; other);&#10;&#10;    /**&#10;     * Intersect this multiset with another one. The result is the modified multiset (this).&#10;     * It will contain all elements that are present in the both multisets.&#10;     * The multiplicity of each element is equal to the minimum multiplicity of&#10;     * the corresponding elements in the intersecting multisets.&#10;     */&#10;    void intersect(Multiset&lt;E&gt; other);&#10;&#10;    /**&#10;     * Returns multiplicity of the given element.&#10;     * If the set doesn't contain it, the multiplicity is 0&#10;     */&#10;    int getMultiplicity(E elem);&#10;&#10;    /**&#10;     * Check the multiset contains an element,&#10;     * i.e. the multiplicity &gt; 0&#10;     */&#10;    boolean contains(E elem);&#10;&#10;    /**&#10;     * The number of unique elements&#10;     */&#10;    int numberOfUniqueElements();&#10;&#10;    /**&#10;     * The size of the multiset, including repeated elements&#10;     */&#10;    int size();&#10;&#10;    /**&#10;     * The set of unique elements (without repeating)&#10;     */&#10;    Set&lt;E&gt; toSet();&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/TreeMultiset.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/TreeMultiset.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class TreeMultiset &lt;E&gt; implements Multiset&lt;E&gt; {&#10;&#10;&#10;        private Map&lt;E, Integer&gt; map = new TreeMap&lt;&gt;();&#10;&#10;        public Map&lt;E, Integer&gt; getMap(){&#10;            return this.map;&#10;        }&#10;&#10;        @Override&#10;        public void add(E elem) {&#10;&#10;            int newVal = null != map.get(elem) ? map.getOrDefault(elem, 0) : 0;&#10;            //if(newVal&gt;1){&#10;            map.put(elem, newVal+1);&#10;            //}&#10;        }&#10;&#10;        @Override&#10;        public void remove(E elem) {&#10;            if(this.contains(elem)){&#10;                int currentVal=map.get(elem);&#10;                map.put(elem, currentVal-1);&#10;            }&#10;            if(this.getMultiplicity(elem) == 0){&#10;                this.map.remove(elem);&#10;            }&#10;        }&#10;&#10;        @Override&#10;        public void union(Multiset&lt;E&gt; other) {&#10;            for(E o: other.toSet()){&#10;                int oVal = other.getMultiplicity(o);&#10;                if(this.contains(o)){&#10;                    int thisVal = this.getMultiplicity(o);&#10;                    map.put(o, Math.max(thisVal, oVal));&#10;                }else{&#10;                    map.put(o, oVal);&#10;                }&#10;            }&#10;        }&#10;&#10;        @Override&#10;        public void intersect(Multiset&lt;E&gt; other) {&#10;            int l = this.toSet().size();&#10;            List&lt;E&gt; listSet = new ArrayList&lt;&gt;(this.toSet());&#10;            for(int j=l-1; j&gt;=0; j--){&#10;                E e = listSet.get(j);&#10;                if (!other.contains(e)){&#10;                    map.remove(e);&#10;                }else{&#10;                    int thisVal = this.getMultiplicity(e);&#10;                    int oVal = other.getMultiplicity(e);&#10;                    map.put(e, Math.min(thisVal, oVal));&#10;                }&#10;            }&#10;        }&#10;&#10;        @Override&#10;        public int getMultiplicity(E elem) {&#10;            return null != map.get(elem) ? map.getOrDefault(elem, 0) : 0;&#10;        }&#10;&#10;        @Override&#10;        public boolean contains(E elem) {&#10;            return this.getMultiplicity(elem) &gt; 0;&#10;        }&#10;&#10;        @Override&#10;        public int numberOfUniqueElements() {&#10;            int count =0;&#10;            for(E o:this.toSet()){&#10;                if( this.getMultiplicity(o) == 1){&#10;                    count++;&#10;                }&#10;            }&#10;            return count&lt;=this.size() ? count : 0;&#10;        }&#10;&#10;        @Override&#10;        public int size() {&#10;            int countSize =0;&#10;            for(E o:this.toSet()){&#10;                int currentVal = this.getMultiplicity(o);&#10;                if(currentVal&gt;0) {&#10;                    countSize += currentVal;&#10;                }&#10;            }&#10;            return countSize;&#10;        }&#10;&#10;        @Override&#10;        public Set&lt;E&gt; toSet() {&#10;            List&lt;E&gt; listSet = new ArrayList&lt;&gt;(this.map.keySet());&#10;            int l = listSet.size();&#10;            for(int j=l-1; j&gt;=0; j--){&#10;                E e = listSet.get(j);&#10;                if(this.getMultiplicity(e)==0){&#10;                    map.remove(e);&#10;                }&#10;            }&#10;&#10;            return this.map.keySet();&#10;        }&#10;&#10;        @Override&#10;        public String toString(){&#10;&#10;            return this.map.entrySet().toString();&#10;        }&#10;&#10;    }&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -777,7 +833,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="X-files" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/SortingTest.java">
@@ -814,9 +870,51 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/sorting/Main.java" />
                                 <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class Main {&#10;    public static void main(final String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        while (scanner.hasNextLong()) {&#10;            long number = scanner.nextLong();&#10;            // write your code here&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/Multiset.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/Multiset.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.Set;&#10;&#10;interface Multiset&lt;E&gt; {&#10;&#10;    /**&#10;     * Add an element to the multiset.&#10;     * It increases the multiplicity of the element by 1.&#10;     */&#10;    void add(E elem);&#10;&#10;    /**&#10;     * Remove an element from the multiset.&#10;     * It decreases the multiplicity of the element by 1.&#10;     */&#10;    void remove(E elem);&#10;&#10;    /**&#10;     * Union this multiset with another one. The result is the modified multiset (this).&#10;     * It will contain all elements that are present in at least one of the initial multisets.&#10;     * The multiplicity of each element is equal to the maximum multiplicity of&#10;     * the corresponding elements in both multisets.&#10;     */&#10;    void union(Multiset&lt;E&gt; other);&#10;&#10;    /**&#10;     * Intersect this multiset with another one. The result is the modified multiset (this).&#10;     * It will contain all elements that are present in the both multisets.&#10;     * The multiplicity of each element is equal to the minimum multiplicity of&#10;     * the corresponding elements in the intersecting multisets.&#10;     */&#10;    void intersect(Multiset&lt;E&gt; other);&#10;&#10;    /**&#10;     * Returns multiplicity of the given element.&#10;     * If the set doesn't contain it, the multiplicity is 0&#10;     */&#10;    int getMultiplicity(E elem);&#10;&#10;    /**&#10;     * Check the multiset contains an element,&#10;     * i.e. the multiplicity &gt; 0&#10;     */&#10;    boolean contains(E elem);&#10;&#10;    /**&#10;     * The number of unique elements&#10;     */&#10;    int numberOfUniqueElements();&#10;&#10;    /**&#10;     * The size of the multiset, including repeated elements&#10;     */&#10;    int size();&#10;&#10;    /**&#10;     * The set of unique elements (without repeating)&#10;     */&#10;    Set&lt;E&gt; toSet();&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/sorting/TreeMultiset.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/sorting/TreeMultiset.java" />
+                                <option name="text" value="package sorting;&#10;&#10;import java.util.*;&#10;&#10;public class TreeMultiset &lt;E&gt; implements Multiset&lt;E&gt; {&#10;&#10;&#10;        private Map&lt;E, Integer&gt; map = new TreeMap&lt;&gt;();&#10;&#10;        public Map&lt;E, Integer&gt; getMap(){&#10;            return this.map;&#10;        }&#10;&#10;        @Override&#10;        public void add(E elem) {&#10;&#10;            int newVal = null != map.get(elem) ? map.getOrDefault(elem, 0) : 0;&#10;            //if(newVal&gt;1){&#10;            map.put(elem, newVal+1);&#10;            //}&#10;        }&#10;&#10;        @Override&#10;        public void remove(E elem) {&#10;            if(this.contains(elem)){&#10;                int currentVal=map.get(elem);&#10;                map.put(elem, currentVal-1);&#10;            }&#10;            if(this.getMultiplicity(elem) == 0){&#10;                this.map.remove(elem);&#10;            }&#10;        }&#10;&#10;        @Override&#10;        public void union(Multiset&lt;E&gt; other) {&#10;            for(E o: other.toSet()){&#10;                int oVal = other.getMultiplicity(o);&#10;                if(this.contains(o)){&#10;                    int thisVal = this.getMultiplicity(o);&#10;                    map.put(o, Math.max(thisVal, oVal));&#10;                }else{&#10;                    map.put(o, oVal);&#10;                }&#10;            }&#10;        }&#10;&#10;        @Override&#10;        public void intersect(Multiset&lt;E&gt; other) {&#10;            int l = this.toSet().size();&#10;            List&lt;E&gt; listSet = new ArrayList&lt;&gt;(this.toSet());&#10;            for(int j=l-1; j&gt;=0; j--){&#10;                E e = listSet.get(j);&#10;                if (!other.contains(e)){&#10;                    map.remove(e);&#10;                }else{&#10;                    int thisVal = this.getMultiplicity(e);&#10;                    int oVal = other.getMultiplicity(e);&#10;                    map.put(e, Math.min(thisVal, oVal));&#10;                }&#10;            }&#10;        }&#10;&#10;        @Override&#10;        public int getMultiplicity(E elem) {&#10;            return null != map.get(elem) ? map.getOrDefault(elem, 0) : 0;&#10;        }&#10;&#10;        @Override&#10;        public boolean contains(E elem) {&#10;            return this.getMultiplicity(elem) &gt; 0;&#10;        }&#10;&#10;        @Override&#10;        public int numberOfUniqueElements() {&#10;            int count =0;&#10;            for(E o:this.toSet()){&#10;                if( this.getMultiplicity(o) == 1){&#10;                    count++;&#10;                }&#10;            }&#10;            return count&lt;=this.size() ? count : 0;&#10;        }&#10;&#10;        @Override&#10;        public int size() {&#10;            int countSize =0;&#10;            for(E o:this.toSet()){&#10;                int currentVal = this.getMultiplicity(o);&#10;                if(currentVal&gt;0) {&#10;                    countSize += currentVal;&#10;                }&#10;            }&#10;            return countSize;&#10;        }&#10;&#10;        @Override&#10;        public Set&lt;E&gt; toSet() {&#10;            List&lt;E&gt; listSet = new ArrayList&lt;&gt;(this.map.keySet());&#10;            int l = listSet.size();&#10;            for(int j=l-1; j&gt;=0; j--){&#10;                E e = listSet.get(j);&#10;                if(this.getMultiplicity(e)==0){&#10;                    map.remove(e);&#10;                }&#10;            }&#10;&#10;            return this.map.keySet();&#10;        }&#10;&#10;        @Override&#10;        public String toString(){&#10;&#10;            return this.map.entrySet().toString();&#10;        }&#10;&#10;    }&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="out.txt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="out.txt" />
+                                <option name="text" value="" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -852,7 +950,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Creating a set" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -887,7 +985,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="Removing duplicates and sorting" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -922,7 +1020,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Symmetric difference" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -957,7 +1055,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="Displaying pairs" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -992,7 +1090,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Processing maps - 2" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -1062,7 +1160,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="Spell checker" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -1071,7 +1169,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -1082,6 +1180,216 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1541088445000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Convert vehicles and cars to string&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3004&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   &lt;div&gt;&#10;    &lt;div&gt;&#10;     &lt;div&gt;&#10;      Given two classes &#10;      &lt;code class=&quot;java&quot;&gt;Vehicle&lt;/code&gt; and &#10;      &lt;code class=&quot;java&quot;&gt;Car&lt;/code&gt;. The second class extends the first one.&#10;      &lt;div&gt;&#10;       &lt;br&gt;&#10;      &lt;/div&gt;&#10;      &lt;div&gt;&#10;       Override &#10;       &lt;code class=&quot;java&quot;&gt;toString&lt;/code&gt; in both classes to return string representation of vehicles and cars.&#10;       &lt;br&gt;&#10;       &lt;br&gt;If an object is &#10;       &lt;code class=&quot;java&quot;&gt;Vehicle&lt;/code&gt;, the overridden method &#10;       &lt;code class=&quot;java&quot;&gt;toString&lt;/code&gt; must return something like:&#10;      &lt;/div&gt;&#10;      &lt;div&gt;&#10;       &lt;br&gt;&#10;      &lt;/div&gt;&#10;      &lt;div&gt;&#10;       &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Vehicle{licensePlate=ABC123}&lt;/code&gt;&lt;/pre&gt;&#10;       &lt;br&gt;&#10;       &lt;div&gt;&#10;        &lt;div&gt;&#10;         If an object is &#10;         &lt;code class=&quot;java&quot;&gt;Car&lt;/code&gt;, the overridden method &#10;         &lt;code class=&quot;java&quot;&gt;toString&lt;/code&gt; must return something like:&#10;        &lt;/div&gt;&#10;        &lt;div&gt;&#10;         &lt;br&gt;&#10;        &lt;/div&gt;&#10;        &lt;div&gt;&#10;         &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Car{licensePlate=ABC123,numberOfSeats=4}&lt;/code&gt;&lt;/pre&gt;&#10;        &lt;/div&gt;&#10;       &lt;/div&gt;&#10;      &lt;/div&gt;&#10;     &lt;/div&gt;&#10;    &lt;/div&gt;&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3584&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3004" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3004" />
+                      <option name="index" value="8" />
+                      <option name="name" value="Convert vehicles and cars to string" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Vehicle {&#10;&#10;    protected String licensePlate;&#10;&#10;    public Vehicle(String licensePlate) {&#10;        this.licensePlate = licensePlate;&#10;    }&#10;}&#10;&#10;class Car extends Vehicle {&#10;&#10;    protected int numberOfSeats;&#10;&#10;    public Car(String licensePlate, int numberOfSeats) {&#10;        super(licensePlate);&#10;        this.numberOfSeats = numberOfSeats;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088481000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Account&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2308&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;There is a class named Account. It includes three fields: &lt;code class=&quot;java&quot;&gt;id&lt;/code&gt;, &lt;code class=&quot;java&quot;&gt;code&lt;/code&gt; and &lt;code class=&quot;java&quot;&gt;balance&lt;/code&gt;.&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;Override the method &lt;code class=&quot;java&quot;&gt;toString()&lt;/code&gt; in this class. The method should return a string representation of the account instance.&lt;/p&gt;&#10;  &lt;p&gt;Do not make the class &lt;code class=&quot;java&quot;&gt;public&lt;/code&gt;.&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;Example&lt;/b&gt;&lt;/p&gt;&#10;  &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;Account{id=10, code='123-456-789', balance=2000}&lt;/code&gt;&lt;/pre&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3584&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2308" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2308" />
+                      <option name="index" value="9" />
+                      <option name="name" value="Account" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Scanner;&#10;&#10;class Account {&#10;&#10;    private long id;&#10;    private String code;&#10;    private Long balance;&#10;&#10;    public Account(long id, String code, Long balance) {&#10;        this.id = id;&#10;        this.code = code;&#10;        this.balance = balance;&#10;    }&#10;&#10;    // Override toString() here&#10;}&#10;&#10;/* Do not change code below */&#10;public class Main {&#10;&#10;    public static void main(String[] args) {&#10;&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        String[] parts = scanner.nextLine().split(&quot;\\s+&quot;);&#10;&#10;        long id = Long.parseLong(parts[0]);&#10;        String code = parts[1];&#10;        long balance = Long.parseLong(parts[2]);&#10;&#10;        Object acc = new Account(id, code, balance);&#10;&#10;        System.out.println(acc.toString());&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088426000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Time as a string&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3002&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Given a class named &#10;  &lt;code class=&quot;java&quot;&gt;Time&lt;/code&gt;. It has three int fields: &#10;  &lt;code class=&quot;java&quot;&gt;hours&lt;/code&gt;, &#10;  &lt;code class=&quot;java&quot;&gt;minutes&lt;/code&gt; and &#10;  &lt;code class=&quot;java&quot;&gt;seconds&lt;/code&gt;. Override the method &#10;  &lt;code class=&quot;java&quot;&gt;toString&lt;/code&gt; in the class to return a string representation of an object.&#10;  &lt;div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    The overridden method must return a string hours, minutes and seconds separated by colons. If a number contains only a single digit, add a zero first.&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    &lt;br&gt;&#10;   &lt;/div&gt;&#10;   &lt;div&gt;&#10;    Here are some examples: &#10;    &lt;b&gt;&quot;23:59:59&quot;, &quot;11:08:05&quot;, &quot;01:01:01&quot;.&lt;/b&gt;&#10;   &lt;/div&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3584&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3002" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3002" />
+                      <option name="index" value="10" />
+                      <option name="name" value="Time as a string" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Time {&#10;&#10;    private int hours;&#10;    private int minutes;&#10;    private int seconds;&#10;&#10;    public Time(int hours, int minutes, int seconds) {&#10;        this.hours = hours;&#10;        this.minutes = minutes;&#10;        this.seconds = seconds;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088480000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Who is who&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2207&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;Given a class hierarchy consisting of three classes. The base class &lt;/span&gt;is &lt;code class=&quot;java&quot;&gt;Employee&lt;/code&gt;.&lt;span&gt; The first subclass &lt;/span&gt;is &lt;code class=&quot;java&quot;&gt;Developer&lt;/code&gt;,&lt;span&gt; the second subclass &lt;/span&gt;is &lt;code class=&quot;java&quot;&gt;DataAnalyst&lt;/code&gt;.&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;Implement a method &lt;b&gt;determineWhoIsWho&lt;/b&gt;. The method takes an array of employees. Each element belongs to one of listed classes. The method should output the type (DEV, EMP or DA) of each element in a new line.&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;Use the provided template for your method.&lt;/p&gt;&#10;  &lt;p&gt;&lt;b&gt;Output example&lt;/b&gt;&lt;/p&gt;&#10;  &lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;DEV&#10;EMP&#10;DA&lt;/code&gt;&lt;/pre&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3571&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2207" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2207" />
+                      <option name="index" value="11" />
+                      <option name="name" value="Who is who" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public static void determineWhoIsWho(Employee[] employees) {&#10;    for (Employee employee : employees) {&#10;        System.out.println(&quot;EMP&quot;);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088425000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Sort out the classes&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/4340&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Given 4 classes - &lt;code class=&quot;java&quot;&gt;Shape&lt;/code&gt;, &lt;code class=&quot;java&quot;&gt;Polygon&lt;/code&gt;, &lt;code class=&quot;java&quot;&gt;Square&lt;/code&gt;, &lt;code class=&quot;java&quot;&gt;Circle&lt;/code&gt;.&lt;/p&gt;&#10;  &lt;p&gt;Classes &lt;code class=&quot;java&quot;&gt;Polygon&lt;/code&gt; and &lt;code class=&quot;java&quot;&gt;Circle&lt;/code&gt; both extends class &lt;code class=&quot;java&quot;&gt;Shape&lt;/code&gt;, class &lt;code class=&quot;java&quot;&gt;Square&lt;/code&gt; extends class &lt;code class=&quot;java&quot;&gt;Polygon&lt;/code&gt;. &lt;/p&gt;&#10;  &lt;p&gt;You need to implement a method that should take &lt;code class=&quot;java&quot;&gt;Shape&lt;/code&gt; array and add every element to one of the provided Lists based on their class.&lt;br&gt;&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Solve the task!&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Good job!&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3571&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/4340" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="4340" />
+                      <option name="index" value="12" />
+                      <option name="name" value="Sort out the classes" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public static void sortShapes(Shape[] array,&#10;                              List&lt;Shape&gt; shapes,&#10;                              List&lt;Polygon&gt; polygons,&#10;                              List&lt;Square&gt; squares,&#10;                              List&lt;Circle&gt; circles) {&#10;    // write your code here&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088502000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Sum of the areas&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/4341&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Given this classes:&#10;  &lt;div&gt;&#10;   &lt;pre&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;class Shape {}&#10;class Square extends Shape {&#10;    private int side;&#10;    public int getSide() {&#10;        return side;&#10;    }&#10;    public void setSide(int side) {&#10;        this.side = side;&#10;    }&#10;}&#10;class Rectangle extends Shape {&#10;    private int width, height;&#10;    public int getWidth() {&#10;        return width;&#10;    }&#10;    public void setWidth(int width) {&#10;        this.width = width;&#10;    }&#10;    public int getHeight() {&#10;        return height;&#10;    }&#10;    public void setHeight(int height) {&#10;        this.height = height;&#10;    }&#10;}&lt;/code&gt;&lt;/pre&gt; &lt;/pre&gt;Unfortunately, the author of this classes forgot to add getArea() method to this classes. And now you need to implement a method that calculates a sum of areas of the Shape array. If some elements are instances of class Shape then their area equals 0.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;Shape&lt;br&gt;Square 10&lt;br&gt;Square 20&lt;br&gt;Rectangle 20 3&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;560&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3571&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/4341" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="4341" />
+                      <option name="index" value="13" />
+                      <option name="name" value="Sum of the areas" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public static int sumOfAreas(Shape[] array) {&#10;    // write your code here&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088503000" />
                     </CodeTask>
                   </list>
                 </option>

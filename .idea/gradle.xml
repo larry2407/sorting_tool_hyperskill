@@ -10,13 +10,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/Account" />
+            <option value="$PROJECT_DIR$/Problems/Convert vehicles and cars to string" />
             <option value="$PROJECT_DIR$/Problems/Creating a set" />
             <option value="$PROJECT_DIR$/Problems/Displaying pairs" />
             <option value="$PROJECT_DIR$/Problems/Multiset" />
             <option value="$PROJECT_DIR$/Problems/Processing maps - 2" />
             <option value="$PROJECT_DIR$/Problems/Removing duplicates and sorting" />
+            <option value="$PROJECT_DIR$/Problems/Sort out the classes" />
             <option value="$PROJECT_DIR$/Problems/Spell checker" />
+            <option value="$PROJECT_DIR$/Problems/Sum of the areas" />
             <option value="$PROJECT_DIR$/Problems/Symmetric difference" />
+            <option value="$PROJECT_DIR$/Problems/Time as a string" />
+            <option value="$PROJECT_DIR$/Problems/Who is who" />
             <option value="$PROJECT_DIR$/Sorting Tool/task" />
             <option value="$PROJECT_DIR$/util" />
           </set>
