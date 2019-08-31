@@ -6,6 +6,8 @@
       <module name="Problems-Account_test" target="11" />
       <module name="Problems-Convert_vehicles_and_cars_to_string_main" target="11" />
       <module name="Problems-Convert_vehicles_and_cars_to_string_test" target="11" />
+      <module name="Problems-Count_elements_of_an_array_in_another_one_main" target="11" />
+      <module name="Problems-Count_elements_of_an_array_in_another_one_test" target="11" />
       <module name="Problems-Creating_a_set_main" target="11" />
       <module name="Problems-Creating_a_set_test" target="11" />
       <module name="Problems-Displaying_pairs_main" target="11" />
@@ -16,6 +18,8 @@
       <module name="Problems-Processing_maps_-_2_test" target="11" />
       <module name="Problems-Removing_duplicates_and_sorting_main" target="11" />
       <module name="Problems-Removing_duplicates_and_sorting_test" target="11" />
+      <module name="Problems-Search_indexes_of_values_in_another_array_main" target="11" />
+      <module name="Problems-Search_indexes_of_values_in_another_array_test" target="11" />
       <module name="Problems-Sort_out_the_classes_main" target="11" />
       <module name="Problems-Sort_out_the_classes_test" target="11" />
       <module name="Problems-Spell_checker_main" target="11" />
@@ -24,6 +28,8 @@
       <module name="Problems-Sum_of_the_areas_test" target="11" />
       <module name="Problems-Symmetric_difference_main" target="11" />
       <module name="Problems-Symmetric_difference_test" target="11" />
+      <module name="Problems-The_number_of_occurrences_main" target="11" />
+      <module name="Problems-The_number_of_occurrences_test" target="11" />
       <module name="Problems-Time_as_a_string_main" target="11" />
       <module name="Problems-Time_as_a_string_test" target="11" />
       <module name="Problems-Who_is_who_main" target="11" />

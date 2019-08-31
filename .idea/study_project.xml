@@ -1391,6 +1391,111 @@
                       </option>
                       <option name="updateDate" value="1541088503000" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;The number of occurrences&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3101&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Implement a method to count the number of occurrences of a value in an array of int's.&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;19 14 17 15 17&lt;br&gt;17&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;101 120 103 240&lt;br&gt;150&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3541&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3101" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3101" />
+                      <option name="index" value="14" />
+                      <option name="name" value="The number of occurrences" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Arrays;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    public static int count(int[] numbers, int value) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    @SuppressWarnings(&quot;Duplicates&quot;)&#10;    public static void main(String[] args) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        final int[] numbers;&#10;        final int k;&#10;        if (scanner.hasNextInt()) {&#10;            numbers = Arrays.stream(scanner.nextLine().split(&quot;\\s+&quot;))&#10;                    .mapToInt(Integer::parseInt)&#10;                    .toArray();&#10;            k = Integer.parseInt(scanner.nextLine());&#10;        } else {&#10;            numbers = new int[0];&#10;            k = 10;&#10;        }&#10;        System.out.println(count(numbers, k));&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088485000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Count elements of an array in another one&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3104&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Implement a method to search the count of occurrences values from the &#10;  &lt;code class=&quot;java&quot;&gt;first&lt;/code&gt; array in the &#10;  &lt;code class=&quot;java&quot;&gt;second&lt;/code&gt; one. The method must return an array of counts with the same size as the first array.&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Both arrays are not empty, values may repeat in arrays.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;15 10 18 17 15&lt;br&gt;10 10 15 10 17 17&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1 3 0 2 1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3541&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3104" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3104" />
+                      <option name="index" value="15" />
+                      <option name="name" value="Count elements of an array in another one" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Arrays;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    public static int[] countOccurrences(int[] first, int[] second) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String[] args) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        final int[] first = Arrays.stream(scanner.nextLine().split(&quot;\\s+&quot;))&#10;                .mapToInt(Integer::parseInt)&#10;                .toArray();&#10;        final int[] second = Arrays.stream(scanner.nextLine().split(&quot;\\s+&quot;))&#10;                .mapToInt(Integer::parseInt)&#10;                .toArray();&#10;        final String result = Arrays.toString(countOccurrences(first, second))&#10;                .replace(&quot;, &quot;, &quot; &quot;)&#10;                .replace(&quot;[&quot;, &quot;&quot;)&#10;                .replace(&quot;]&quot;, &quot;&quot;);&#10;        System.out.println(result);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088485000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Search indexes of values in another array&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3103&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Implement a method to search the index of the first occurrence of each value from the &#10;  &lt;code class=&quot;java&quot;&gt;first&lt;/code&gt; array in the &#10;  &lt;code class=&quot;java&quot;&gt;second&lt;/code&gt; one. If a value is not found in the second array, the index is &#10;  &lt;code class=&quot;java&quot;&gt;-1&lt;/code&gt;. The method must return an array of indexes with the same size as the first array.&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Both arrays are not empty, values may repeat in arrays.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;15 10 18 17 15&lt;br&gt;10 15 10 17&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1 0 -1 3 1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3541&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3103" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3103" />
+                      <option name="index" value="16" />
+                      <option name="name" value="Search indexes of values in another array" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.util.Arrays;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    public static int[] searchIndexes(int[] first, int[] second) {&#10;        // write your code here&#10;    }&#10;&#10;    /* Do not change code below */&#10;    public static void main(String[] args) {&#10;        final Scanner scanner = new Scanner(System.in);&#10;        final int[] first = Arrays.stream(scanner.nextLine().split(&quot;\\s+&quot;))&#10;                .mapToInt(Integer::parseInt)&#10;                .toArray();&#10;        final int[] second = Arrays.stream(scanner.nextLine().split(&quot;\\s+&quot;))&#10;                .mapToInt(Integer::parseInt)&#10;                .toArray();&#10;        final String result = Arrays.toString(searchIndexes(first, second))&#10;                .replace(&quot;, &quot;, &quot; &quot;)&#10;                .replace(&quot;[&quot;, &quot;&quot;)&#10;                .replace(&quot;]&quot;, &quot;&quot;);&#10;        System.out.println(result);&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088485000" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
